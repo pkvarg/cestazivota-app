@@ -1,0 +1,362 @@
+{
+  "slovak": {
+    "heroTitle": "Uver pravde, buď oslobodený od hriechu a získaj večný život!",
+    "heroText1": "Ak ešte neveríš v Boha Otca-Syna-Ducha, prosím uvedom si, že svojou neverou nespôsobíš zánik Jeho existencie. Pýcha tvojho ega ti nedovoľuje pripustiť, že nie ty vládneš nad svojím životom, ale On má všetko pod kontrolou.",
+    "heroVerse1": "Vo svojom srdci blázon hovorí: Niet Boha!",
+    "heroRef1": "Žalmy 14:1",
+    "heroText2": "Preto daj sebe samému šancu a čítaj ďalej.",
+
+    "heroText3": "Boh existuje! Stvorenie samé svedčí o Ňom.",
+    "heroVerse3": "Lebo im je zjavné, čo môžu vedieť o Bohu; veď sám Boh im to zjavil. Lebo čo je neviditeľné z Neho, Jeho večná moc a božskosť, to od stvorenia sveta rozjímaním môžu pozorovať z Jeho diel, takže nemajú ospravedlnenie.",
+    "heroRef3": "Rimanom 1:19-20",
+
+    "heroText4": "Boh je láska a tá Ho motivovala stvoriť ľudstvo, takže aj teba, aby mal s tebou osobný vzťah. Avšak pádom človeka v raji dedíme hriešnu prirodzenosť, ktorá bráni tomuto vzťahu.",
+    "heroVerse4": "Všetci totiž zhrešili a nemajú slávy Božej.",
+    "heroRef4": "Rimanom 3:23",
+    "heroVerse5": "Ak hovoríme, že nemáme hriech, sami seba klameme a nie je v nás pravda.",
+    "heroRef5": "Prvý Jánov 1:8",
+
+    "heroText6": "Boh ťa tak veľmi miluje, že Svojho Syna nechal obetovať za tvoje hriechy, pretože ",
+    "heroVerse6": "bez vyliatia krvi niet odpustenia.  ",
+    "heroRef6": "Hebrejom 9:22",
+    "heroVerse7": "Lebo tak Boh miloval svet, že svojho jednorodeného Syna dal, aby nezahynul, ale večný život mal každý, kto verí v Neho. ",
+    "heroRef7": "Ján 3:16",
+
+    "s2Title": "Svedectvo môjho kamaráta Jimmyho",
+
+    "s3Text1": "Ak sa rozhodneš ignorovať Jeho obeť a šancu na záchranu, budeš odsúdený,",
+    "s3Text1add": " lebo Boh sa pyšným protiví.",
+    "s3Text1addRef": " Prvý Petrov 5:5",
+    "s3Verse1": "Kto však neposlúcha Syna, neuvidí život, ale hnev Boží zostáva na ňom.",
+    "s3Ref1": "Ján 3:36",
+    "s3Verse2": "Kto neverí, už je odsúdený, pretože neuveril v meno jednorodeného Syna Božieho.",
+    "s3Ref2": "Ján 3:18",
+
+    "s3Text2": "Ver v Pána Ježiša Krista a budeš spasený!",
+    "s3Verse3": "Kto verí v Syna, má večný život.",
+    "s3Ref3": "Ján 3:36",
+    "s3Verse4": "Kto verí v Neho, nebude súdený.",
+    "s3Ref4": "Ján 3:18",
+    "s3Ref4addText": " Pretože",
+    "s3Ref4addVerse": " Boh dáva pokorným milosť.",
+    "s3Ref4addRef": " Prvý Petrov 5:5",
+
+    "s3Verse5": "Ak ústami vyznávaš Pána Ježiša a v srdci veríš, že Ho Boh vzkriesil z mŕtvych, budeš spasený; lebo srdcom veríme na spravodlivosť a ústami vyznávame na spasenie.",
+    "s3Ref5": "Rimanom 10:9-10",
+
+    "s3Text3": "Evanjelium neznamená “Uver, inak pôjdeš do pekla!”, ale ”Uver, lebo tam smeruješ!”",
+    "s3Verse6": "Povedz im: Akože žijem - znie výrok Hospodina, Pána - nemám záľubu v smrti bezbožného, ale v tom, že sa bezbožný odvráti od svojho spôsobu života a bude žiť.",
+    "s3Ref6": "Ezechiel 33:11",
+
+    "s3Verse7": "Whoever does not believe has already been condemned, because he has not believed in the name of God’s one and only Son.",
+    "s3Ref7": "John 3:18",
+
+    "s3Text4": "Kajaj sa zo svojich hriechov a úprimne zo srdca ústami vyznaj:",
+
+    "s3Text4a": "Nebeský Otče, ďakujem Ti, že si poslal Svojho Syna, aby niesol trest za moje hriechy.",
+
+    "s3Text4b": "Verím, že Ježiš zomrel na kríži a tretí deň vstal z mŕtvych a žije.",
+
+    "s3Text4c": "Vzdávam sa doterajšieho hriešneho spôsobu života.",
+
+    "s3Text4d": "Odpúšťam každému, kto mi ublížil, takže voči nikomu nedržím horkosť.",
+
+    "s3Text4e": "Prosím, odpusť mi všetky hriechy skrze krv Ježiša Krista.",
+
+    "s3Text4f": "Ďakujem Ti, že si ma očistil.",
+
+    "s3Text4g": "Ježišu, vyznávam Ťa ako môjho Pána a Spasiteľa.",
+
+    "s3Text4h": "Prosím, meň moje srdce a formuj môj charakter.",
+
+    "s3Text4i": "Amen.",
+
+    "s4Text1": "Viac sa dočítaš v tejto knihe",
+    "s4Text2": "Vytlačenú bezplatnú knihu si pýtaj u mňa",
+
+    "s5Text1": "Daj sa pokrstiť v mene Ježiša Krista na odpustenie hriechov, začni sa každodenne modliť",
+    "s5Anchor1": "vlastnými slovami,",
+    "s5Text2": "aby si udržiaval živý vzťah s Bohom a čítať",
+    "s5Anchor2": "Bibliu,",
+    "s5Text3": "aby si bol plný Jeho Slova a podľa Neho žil. A pravidelne navštevuj nejaké spoločenstvo, kde oslavujú len Boha Otca, Ježiša a Svätého Ducha.",
+
+    "s5Text4": "Prečo nestačí len formálne uveriť a ďalej to neriešiť? Pretože viera bez osobného vzťahu s Ježišom je len mŕtve náboženstvo a viera bez poslušnosti Božiemu Slovu je pokrytectvom. Takú falošnú vieru Boh neprijme a odsúdi. Mŕtva viera ťa nespasí! ",
+    "s5Text4a": "Pánom ti je ten, koho poslúchaš.",
+    "s5Verse1": "Kto hovorí: Poznám Ho, ale nezachováva Jeho prikázania, je klamár a niet v ňom pravdy. Ak niekto miluje svet (žiadosť tela, žiadosť očí, pýchu života), nieto v ňom lásky k Otcovi.",
+    "s5Ref1": "Prvý Jánov 2:4,15",
+    "s5Text5": "Viac v tejto audio knihe",
+
+    "s5Anchor3": "Ži s perspektívou večnosti",
+    "s5Text6": "(5. kapitola).",
+
+    "s5Text7": "Sú všetky cirkevné tradície podložené Božím Slovom? Viac na",
+    "s5Anchor4": "katolickaviera.sk",
+    "s5Text8": "Hlásajú svedkovia Jehovovi evanjelium, aké hlásali apoštoli? Viac na",
+    "s5Anchor5": "svedkovia.sk.",
+    "s5Text9": "Je emocionálne uspokojenie cesta k pravému šťastiu človeka? Viac na ",
+    "s5Anchor6": "duhovyrod.sk.",
+    "s5Text10": "Prajem ti, aby si uveril pravde, ktorou je Božie Slovo a získal tak späť postavenie, ktoré ti patrí.",
+
+    "cookiesText": "Táto stránka používa anonymné analytické nástroje na zlepšenie používateľského zážitku. Nezhromažďujeme osobné údaje.",
+    "cookiesButton": "Súhlasiť",
+    "cookiesDecline": "Odmietnuť",
+
+    "back": "Naspäť",
+
+    "contactTitle": "Kontakt",
+    "contactName": "Meno",
+    "contactEmail": "Tvoj e-mail",
+    "contactSubject": "Predmet",
+    "contactPhone": "Telefón",
+    "contactMessage": "Tvoja správa mne",
+    "contactAgree": "Súhlasím so",
+    "contactGdpr": "spracovaním údajov",
+
+    "contactSend": "Poslať",
+    "contactError": "Neodoslané! Napíšte nám na cestazivota@cestazivota.sk, prosím.",
+    "contactError2": "Chyba! Napíšte nám na cestazivota@cestazivota.sk, prosím.",
+    "contactSuccess": "Vaša správa bola úspešne odoslaná!",
+
+    "gdpr1": "Tvoja emailová adresa nebude uložená v žiadnej databáze a bude použitá len na odpoveď na tvoju správu.",
+    "gdpr2": "Po odoslaní tvojej správy ti obratom príde potvrdenie emailom, tak si prípadne skontroluj aj priečinok nevyžiadanej pošty."
+  },
+
+  "english": {
+    "heroTitle": "Believe the truth, be freed from sin and reach eternal life!",
+    "heroText1": "If you still do not believe in God the Father-Son-Spirit, please be aware that your unbelief will not cause the end of His existence. The pride of your ego does not allow you to admit that you are not in control of your life, but He has everything in control.",
+    "heroVerse1": "The fool says in his heart, “There is no God.",
+    "heroRef1": "Psalms 14:1",
+    "heroText2": "So give yourself a chance and read on.",
+
+    "heroText3": "God exists! Creation itself testifies to Him. ",
+    "heroVerse3": "For what may be known about God is plain to them, because God has made it plain to them. For since the creation of the world God’s invisible qualities, His eternal power and divine nature, have been clearly seen, being understood from His workmanship, so that men are without excuse.",
+    "heroRef3": "Romans 1:19-20",
+
+    "heroText4": "God is love and that motivated Him to create people, including you, to have a personal relationship with you. However, with the fall of man in paradise, we inherit a sinful nature that prevents this relationship.",
+    "heroVerse4": "For all have sinned and fall short of the glory of God.",
+    "heroRef4": "Romans 3:23",
+    "heroVerse5": "If we say we have no sin, we deceive ourselves, and the truth is not in us.",
+    "heroRef5": "First John 1:8",
+
+    "heroText6": "God loves you so much that He let His Son be sacrificed for your sins because",
+    "heroVerse6": "without the shedding of blood there is no forgiveness. ",
+    "heroRef6": "Hebrews 9:22",
+    "heroVerse7": "For God so loved the world that He gave His one and only  Son, that everyone who believes in Him shall not perish but have eternal life. ",
+    "heroRef7": "John 3:16",
+
+    "s2Title": "Testimony of my friend Jimmy",
+
+    "s3Text1": "If you choose to ignore His sacrifice and chance for salvation, you will be condemned,",
+    "s3Text1add": " for God is opposed to the proud.",
+    "s3Text1addRef": " First Peter 5:5",
+    "s3Verse1": "Whoever rejects the Son will not see life. Instead, the wrath of God remains on him.",
+    "s3Ref1": "John 3:36",
+    "s3Verse2": "Whoever does not believe has already been condemned, because he has not believed in the name of God’s one and only Son.",
+    "s3Ref2": "John 3:18",
+
+    "s3Text2": "Believe in the Lord Jesus Christ and you will be saved!  ",
+    "s3Verse3": "Whoever believes in the Son has eternal life.",
+    "s3Ref3": "John 3:36",
+    "s3Verse4": "Whoever believes in Him is not condemned.",
+    "s3Ref4": "John 3:18",
+    "s3Ref4addText": " Because",
+    "s3Ref4addVerse": " God gives grace to the humble.",
+    "s3Ref4addRef": " First Peter 5:5",
+    "s3Verse5": "If you confess with your mouth, “Jesus is Lord,” and believe in your heart that God raised Him from the dead, you will be saved. For with your heart you believe and are justified, and with your mouth you confess and are saved. ",
+    "s3Ref5": "Romans 10:9-10",
+
+    "s3Text3": "The gospel does not mean \"Believe, otherwise you will go to hell!\", but \"Believe, because you are going there!\"",
+    "s3Verse6": "Say to them: As surely as I live, declares the Lord GOD, I take no pleasure in the death of the wicked, but rather that the wicked should turn from their ways and live.",
+    "s3Ref6": "Ezekiel 33:11",
+
+    "s3Verse7": "Whoever does not believe has already been condemned, because he has not believed in the name of God’s one and only Son.",
+    "s3Ref7": "John 3:18",
+
+    "s3Text4": "Repent of your sins and confess sincerely from your heart with your mouth:",
+
+    "s3Text4a": "Heavenly Father, I thank You for sending Your Son to bear the punishment for my sins.",
+
+    "s3Text4b": "I believe that Jesus died on the cross and rose from the dead on the third day and is alive.",
+
+    "s3Text4c": "I give up my previous sinful way of life. ",
+
+    "s3Text4d": "I forgive everyone who has hurt me, so I hold no grudge against anyone.",
+
+    "s3Text4e": "Please forgive me of all my sins through the blood of Jesus Christ.",
+
+    "s3Text4f": "Thank you for cleansing me. ",
+
+    "s3Text4g": "Jesus, I confess you as my Lord and Savior.",
+
+    "s3Text4h": "Please change my heart and shape my character.",
+
+    "s3Text4i": "Amen.",
+
+    "s4Text1": "You can read more in this book",
+    "s4Text2": "Ask me for a printed free book",
+
+    "s5Text1": "Get baptized in the name of Jesus Christ for the forgiveness of sins, start praying daily",
+    "s5Anchor1": "in your own words",
+    "s5Text2": "to maintain a living relationship with God and read",
+    "s5Anchor2": "the Bible,",
+    "s5Text3": "so that you are full of His Word and you live according to Him. And regularly visit some christian fellowship where they celebrate only God the Father, Jesus and the Holy Spirit.",
+
+    "s5Text4": "Why is it not enough to just formally believe and not deal with it further? Because faith without a personal relationship with Jesus is just dead religion  and faith without obedience to God's Word is hypocrisy. God will not accept and condemn such false faith. Dead faith will not save you! ",
+    "s5Text4a": "Your master is the one you obey.",
+    "s5Verse1": "If anyone says, “I know Him,” but does not keep His commandments, he is a liar, and the truth is not in him. Do not love the world or anything in the world. If anyone loves the world (the desires of the flesh, the desires of the eyes, and the pride of life), the love of the Father is not in him.",
+    "s5Ref1": "First John 2:4,15",
+    "s5Text5": " More in this audio book",
+
+    "s5Anchor3": "Driven by Eternity",
+    "s5Text6": " (Chapter 5).",
+
+    "s5Text7": "Are all church traditions supported by God's Word? More at",
+    "s5Anchor4": "katolickaviera.sk",
+    "s5Text8": "Do Jehovah's Witnesses preach the gospel like the apostles preached? More at",
+    "s5Anchor5": "svedkovia.sk.",
+    "s5Text9": "Is emotional satisfaction the path to true human happiness? More at ",
+    "s5Anchor6": "duhovyrod.sk.",
+    "s5Text10": "I wish you to believe the truth, which is God's Word, and thus regain the position that belongs to you.",
+
+    "cookiesText": "This site uses anonymous analytics to improve user experience. We do not collect personal information.",
+    "cookiesButton": "Accept",
+    "cookiesDecline": "Decline",
+
+    "back": "Back",
+
+    "contactTitle": "Contact",
+    "contactName": "Name",
+    "contactSubject": "Subject",
+    "contactEmail": "Your e-mail",
+    "contactPhone": "Phone",
+    "contactMessage": "Your message to me",
+    "contactAgree": "I agree to",
+    "contactGdpr": "process my data",
+
+    "contactSend": "Send",
+    "contactError": "Not sent! Contact us via cestazivota@cestazivota.sk, please.",
+    "contactError2": "Error! Write to cestazivota@cestazivota.sk, please.",
+    "contactSuccess": "Message successfully sent!",
+
+    "gdpr1": "Your e-mail address will not be stored in any database and will only be used to respond to your message.",
+    "gdpr2": "After sending your message, you will immediately receive a confirmation by e-mail, so check your junk mail folder as well."
+  },
+
+  "czech": {
+    "heroTitle": "Uvěř pravdě, buď osvobozený od hříchu a získej věčný život!",
+
+    "heroText1": "Pokud ještě nevěříš v Boha Otce-Syna-Ducha, prosím uvědom si, že svou nevěrou nezpůsobíš zánik Jeho existence. Pýcha tvého ega ti nedovoluje připustit, že ne ty vládneš nad svým životem, ale On má všechno pod kontrolou.",
+    "heroVerse1": "Ve svém srdci blázen říká: Není Boha! ",
+    "heroRef1": "Žalmy 14:1",
+    "heroText2": "Proto dej sobě samému šanci a čti dál.",
+
+    "heroText3": "Bůh existuje! Stvoření samé svědčí o Něm. ",
+    "heroVerse3": " Neboť jim je zjevné, co mohou vědět o Bohu; vždyť sám Bůh jim to zjevil. Neboť co je neviditelné z Něho, Jeho věčná moc a božskost, to od stvoření světa rozjímáním mohou pozorovat z Jeho děl, takže nemají omluvu.",
+    "heroRef3": "Římanům 1:19-20",
+
+    "heroText4": "Bůh je láska a ta Ho motivovala stvořit lidstvo, takže i tebe, aby měl s tebou osobní vztah. Avšak pádem člověka v ráji dědíme hříšnou přirozenost, která brání tomuto vztahu. ",
+    "heroVerse4": "Všichni totiž zhřešili a nemají slávy Boží.",
+    "heroRef4": "Římanům 3:23",
+    "heroVerse5": "Říkáme-li, že nemáme hřích, sami sebe lžeme a není v nás pravda.",
+    "heroRef5": "První Janův 1:8",
+
+    "heroText6": "Bůh tě tak velmi miluje, že Svého Syna nechal obětovat za tvé hříchy, protože ",
+    "heroVerse6": "bez vylití krve není odpuštění. ",
+    "heroRef6": "Židům 9:22 ",
+    "heroVerse7": "Neboť tak Bůh miloval svět, že svého jednorozeného Syna dal, aby nezahynul, ale věčný život měl každý, kdo věří v Něho.",
+    "heroRef7": "Jan 3:16",
+
+    "s2Title": "Svědectví mého kamaráda Jimmyho",
+
+    "s3Text1": "Pokud se rozhodneš ignorovat Jeho oběť a šanci na záchranu, budeš odsouzen,",
+    "s3Text1add": " protože Bůh se pyšným protiví.",
+    "s3Text1addRef": " První Petrův 5:5",
+    "s3Verse1": "Kdo však neposlouchá Syna, neuvidí život, ale hněv Boží zůstává na něm.",
+    "s3Ref1": "Jan 3:36",
+    "s3Verse2": "Kdo nevěří, už je odsouzen, protože neuvěřil ve jméno jednorozeného Syna Božího.",
+    "s3Ref2": "Jan 3:18",
+
+    "s3Text2": "Věř v Pána Ježíše Krista a budeš spasen! ",
+    "s3Verse3": "Kdo věří v Syna, má věčný život.",
+    "s3Ref3": "Jan 3:36",
+    "s3Verse4": "Kdo věří v Něho, nebude souzen.",
+    "s3Ref4": "Jan 3:18",
+    "s3Ref4addText": " Protože",
+    "s3Ref4addVerse": " Bůh dává pokorným milost.",
+    "s3Ref4addRef": " První Petrův 5:5",
+    "s3Verse5": "Jestliže ústy vyznáváš Pána Ježíše a v srdci věříš, že Ho Bůh vzkřísil z mrtvých, budeš spasen; neboť srdcem věříme ve spravedlnost a ústy vyznáváme ke spasení.",
+    "s3Ref5": "Římanům 10:9-10",
+
+    "s3Text3": "Evangelium neznamená \"Uvěř, jinak půjdeš do pekla!\", ale \"Uvěř, protože tam směřuješ!\"",
+    "s3Verse6": "Řekni jim: Jakože žiji - zní výrok Hospodina, Pána - nemám zálibu ve smrti bezbožného, ​​ale v tom, že se bezbožný odvrátí od svého způsobu života a bude žít.",
+    "s3Ref6": "Ezechiel 33:11",
+
+    "s3Verse7": "Whoever does not believe has already been condemned, because he has not believed in the name of God’s one and only Son.",
+    "s3Ref7": "John 3:18",
+
+    "s3Text4": "Kaj se ze svých hříchů a upřímně ze srdce ústy vyznej:",
+
+    "s3Text4a": "Nebeský Otče, děkuji Ti, že jsi poslal Svého Syna, aby nesl trest za mé hříchy. ",
+
+    "s3Text4b": "Věřím, že Ježíš zemřel na kříži a třetí den vstal z mrtvých a žije.",
+
+    "s3Text4c": "Vzdávám se dosavadního hříšného způsobu života.",
+
+    "s3Text4d": "Odpouštím každému, kdo mi ublížil, takže vůči nikomu nedržím hořkost.",
+
+    "s3Text4e": "Prosím, odpusť mi všechny hříchy skrze krev Ježíše Krista.",
+
+    "s3Text4f": "Děkuji Ti, že jsi mě očistil.",
+
+    "s3Text4g": "Ježíši, vyznávám Tě jako mého Pána a Spasitele.",
+
+    "s3Text4h": "Prosím, měň mé srdce a formuj můj charakter.",
+
+    "s3Text4i": "Amen.",
+
+    "s4Text1": "Více se dočteš v této knize",
+    "s4Text2": "Vytisknutou bezplatnou knihu si ptej u mě",
+
+    "s5Text1": "Dej se pokřtít ve jménu Ježíše Krista na odpuštění hříchů, začni se každodenně modlit",
+    "s5Anchor1": "vlastními slovy,",
+    "s5Text2": " aby si udržoval živý vztah s Bohem a číst",
+    "s5Anchor2": "Bibli,",
+    "s5Text3": "abys byl plný Jeho Slova a podle Něho žil. A pravidelně navštěvuj nějaké společenství, kde slaví jen Boha Otce, Ježíše a Ducha Svatého.",
+
+    "s5Text4": "Proč nestačí jen formálně uvěřit a dále to neřešit? Protože víra bez osobního vztahu s Ježíšem je jenom mrtvé náboženství a víra bez poslušnosti Božímu Slovu je pokrytectvím. Takovou falešnou víru Bůh nepřijme a odsoudí. Mrtvá víra tě nespasí! ",
+    "s5Text4a": "Pánem ti je ten, koho posloucháš.",
+    "s5Verse1": "Kdo říká: Znám Ho, ale nezachovává Jeho přikázání, je lhář a není v něm pravdy. Miluje-li někdo svět (žádost těla, žádost očí, pýchu života), není v něm láska k Otci.",
+    "s5Ref1": "První Janův 2:4,15",
+    "s5Text5": "Více v této audio knize",
+
+    "s5Anchor3": " Žij s ohledem na věčnost",
+    "s5Text6": "(5. kapitola).",
+
+    "s5Text7": "  Jsou všechny církevní tradice podloženy Božím Slovem? Více na",
+    "s5Anchor4": "katolickaviera.sk",
+    "s5Text8": "Hlásají svědci Jehovovi evangelium, jaké hlásali apoštolové? Více na",
+    "s5Anchor5": "svedkovia.sk.",
+    "s5Text9": " Je emocionální uspokojení cesta k pravému štěstí člověka? Více na ",
+    "s5Anchor6": "duhovyrod.sk.",
+    "s5Text10": "Přeji ti, abys uvěřil pravdě, kterou je Boží Slovo a získal tak zpět postavení, které ti patří.",
+
+    "cookiesText": "Tato stránka používá anonymní analytické nástroje ke zlepšení uživatelského zážitku. Neshromažďujeme osobní údaje.",
+    "cookiesButton": "Souhlasit",
+    "cookiesDecline": "Odmítnout",
+
+    "back": "Zpátky",
+
+    "contactTitle": "Kontakt",
+    "contactEmail": "Tvůj e-mail",
+    "contactMessage": "Tvoje zpráva me",
+    "contactAgree": "Souhlasím se",
+    "contactGdpr": "zpracováním údajů",
+    "contactSend": "Poslat",
+    "contactError": "Neodeslaný! Napište nám na cestazivota@cestazivota.sk., prosím.",
+    "contactError2": "Chyba! Napište nám na cestazivota@cestazivota.sk, prosím.",
+    "contactSuccess": "Vaše zpráva byla úspěšně odeslána!",
+
+    "gdpr1": "Tvoje e-mailová adresa nebude uložena v žádné databázi a bude použita pouze pro odpověď na tvou zprávu.",
+    "gdpr2": "Po odeslání tvé zprávy ti obratem přijde potvrzení e-mailem, tak si případně zkontroluj i složku nevyžádané pošty."
+  }
+}

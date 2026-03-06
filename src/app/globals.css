@@ -1,0 +1,333 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Lora:ital,wght@0,400;0,600;0,700;1,400;1,500;1,600&family=Baloo+2:wght@400;500;600;700&family=Pacifico&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  color: #e4d1f0;
+  background-color: #000000;
+}
+
+/* Verse styling */
+.verse {
+  @apply italic text-yellow-200;
+}
+
+.verse-ref {
+  @apply text-sm text-yellow-300/80 not-italic;
+}
+
+/* Section transitions */
+.section-fade-in {
+  animation: fadeIn 0.6s ease-in;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+/* === CESTA ŽIVOTA hero === */
+.hero-gradient-cz {
+  background-image: linear-gradient(
+      to right,
+      rgba(5, 0, 15, 0.49),
+      rgb(12, 12, 12)
+    ),
+    url('/images/cestazivota/hero2.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media (max-width: 768px) {
+  .hero-gradient-cz {
+    background-image: linear-gradient(to bottom, rgb(4, 0, 12), rgb(12, 12, 12));
+  }
+}
+
+/* Cesta Života section gradients */
+.section-cz-dark {
+  background-image: linear-gradient(to bottom, #04030b, #0a0a0b, #343336);
+}
+
+.section-cz-purple {
+  background-image: linear-gradient(to bottom, #04030b, #3c1c41);
+  color: #e4d1f0;
+}
+
+.section-cz-purple-dark {
+  background-image: linear-gradient(to bottom, #3c1c41, #04030bf9, #010008);
+}
+
+/* === SVEDKOVIA hero === */
+.hero-gradient-sv {
+  background-image: linear-gradient(
+      to top,
+      #f5f5f4,
+      #eeeebf4b,
+      #9e9e444b
+    ),
+    url('/images/svedkovia/bible.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #1a1a1a;
+}
+
+/* === DÚHOVÝ ROD hero === */
+.hero-gradient-dr {
+  background-image: linear-gradient(
+      to bottom,
+      #1e1c1c00,
+      #433f3f5f,
+      #685178
+    ),
+    url('/images/duhovyrod/hero2.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Duhovyrod fonts */
+.font-baloo {
+  font-family: 'Baloo 2', cursive;
+}
+
+.font-pacifico {
+  font-family: 'Pacifico', cursive;
+}
+
+/* Duhovyrod section gradient */
+.section-dr-body {
+  background-image: linear-gradient(to bottom, #685178, #968065, #968065, #8c5758);
+}
+
+/* Duhovyrod inline verse style — white, inline like svedkovia */
+.verse-dr blockquote {
+  @apply border-l-0 pl-0 my-0 inline;
+}
+
+.verse-dr blockquote p.verse {
+  @apply italic text-white inline;
+  font-size: inherit;
+}
+
+.verse-dr blockquote cite.verse-ref {
+  @apply not-italic inline ml-1 text-white;
+  font-size: 15px;
+}
+
+/* Duhovyrod gradient text for hero title */
+.title-grad {
+  background-image: linear-gradient(to right, #ee36c9, #ffffff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  font-weight: 500;
+}
+
+/* Duhovyrod subtitle styles */
+.subtitle-dr {
+  color: rgb(51, 117, 155);
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white,
+    1px 1px 0 white;
+}
+
+.subtitle-dr-pink {
+  color: #ee36c9;
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white,
+    1px 1px 0 white;
+}
+
+/* Svedkovia home gradient */
+.section-sv-home {
+  background-image: linear-gradient(to right, #a79e8141, #b4b09979, #dad8ce);
+}
+
+/* Verse color overrides for light backgrounds (svedkovia home) */
+.verse-dark .verse {
+  @apply text-gray-700 italic;
+}
+
+.verse-dark .verse-ref {
+  @apply text-gray-500 not-italic text-sm;
+}
+
+.verse-dark blockquote {
+  @apply border-[#4a2600]/30;
+}
+
+/* Svedkovia inline verse style — verses flow inline with surrounding text */
+.verse-sv blockquote {
+  @apply border-l-0 pl-0 my-0 inline;
+}
+
+.verse-sv blockquote p.verse {
+  @apply italic text-inherit inline;
+  font-size: inherit;
+}
+
+.verse-sv blockquote cite.verse-ref {
+  @apply text-xs not-italic opacity-70 inline ml-1;
+}
+
+/* Katolickaviera verse style — non-italic, inline refs, matching original */
+.verse-kv blockquote {
+  @apply border-l-0 pl-0 my-1 block;
+}
+
+.verse-kv blockquote p.verse {
+  @apply not-italic text-[#e6e6e6] inline;
+  font-size: 22.5px;
+}
+
+.verse-kv blockquote cite.verse-ref {
+  @apply not-italic inline ml-1 text-[#e6e6e6];
+  font-size: 15px;
+}
+
+/* === SVEDKOVIA sub-page heroes === */
+.hero-sv-apostoli {
+  background-image: linear-gradient(to top, #895f11, #3e18187c, #111111c5),
+    url('/images/svedkovia/apostles.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero-sv-boh {
+  background-image: linear-gradient(to top, #6dc3dd, #63c6e400, #57cdf5fb),
+    url('/images/svedkovia/Boh.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero-sv-pan {
+  background-image: linear-gradient(to top, #a19a93, #180e0e75, #1c1a1a73),
+    url('/images/svedkovia/pan.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero-sv-vecera {
+  background-image: linear-gradient(to top, #8e562d, #611a1a8d, #11111100),
+    url('/images/svedkovia/vecera.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* === KATOLÍCKA VIERA hero === */
+.hero-gradient-kv {
+  background-image: linear-gradient(
+      to bottom,
+      #1e1c1cad,
+      #90908b58,
+      #22231f
+    ),
+    url('/images/katolickaviera/home.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* === KATOLÍCKA VIERA sub-page heroes === */
+.hero-kv-omsa {
+  background-image: linear-gradient(to bottom, #f5f5f280, #f8f8f8b5, #ffffff),
+    url('/images/katolickaviera/omsa.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero-kv-spoved {
+  background-image: linear-gradient(to top, #222320, #87848479, #1c1a1a73),
+    url('/images/katolickaviera/spoved.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero-kv-manzelstvo {
+  background-image: linear-gradient(to bottom, #f5f5f2bb, #f8f8f8ad, #ffffff),
+    url('/images/katolickaviera/manzelstvo.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero-kv-papez {
+  background-image: linear-gradient(to bottom, #000000, #e8d6d646, #ffffff),
+    url('/images/katolickaviera/papez.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero-kv-knaz {
+  background-image: linear-gradient(to bottom, #1f1f1e, #f8f8f883, #ffffff),
+    url('/images/katolickaviera/knaz.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero-kv-klastor {
+  background-image: linear-gradient(to top, #151715, #87848479, #1c1a1a7c),
+    url('/images/katolickaviera/klastor.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero-kv-maria {
+  background-image: linear-gradient(to bottom, #5f5c5cbd, rgba(246, 244, 244, 0.511), #ffffff),
+    url('/images/katolickaviera/maria.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero-kv-hriech {
+  background-image: linear-gradient(to top, #222320, #8784843c, #1c1a1aeb),
+    url('/images/katolickaviera/hriech.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero-kv-spasenie {
+  background-image: linear-gradient(to top, #222320, #8784843c, #1c1a1aeb),
+    url('/images/katolickaviera/spasenie.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.hero-kv-biblia {
+  background-image: linear-gradient(to bottom, #f3eeee69, #9b969656, #ffffff),
+    url('/images/katolickaviera/bible.webp');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+/* Katolícka viera uses Lora as base font */
+.font-lora {
+  font-family: 'Lora', serif;
+}

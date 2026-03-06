@@ -1,0 +1,324 @@
+{
+  "slovak": {
+    "jTitle": "Je Ježiš Boh?",
+
+    "jText1": "Byť Bohom znamená mať jedinečné božské vlastnosti, ktoré nemá žiadna stvorená bytosť. Božie Slovo vymedzuje rôzne oblasti, ktoré prislúchajú len Bohu a ktoré má človek zakázané prisudzovať ktorejkoľvek stvorenej bytosti.",
+
+    "jSub2": "Len Boh môže stvoriť",
+
+    "jVerse1": "Na počiatku stvoril Boh nebo a zem.",
+    "jRef1": "Genesis 1:1",
+
+    "jVerse2": "Ním (Slovom, ktoré sa stalo telom) povstalo všetko a bez Neho nepovstalo nič, čo povstalo.",
+    "jRef2": "Ján 1:3",
+
+    "jVerse3": "Bolo vo svete a svet Ním povstal, ale svet Ho nepoznal. Do svojho vlastného prišiel, a Jeho vlastní Ho neprijali.",
+    "jRef3": " Ján 1:10-11",
+    "jText2": "Svet Ježišom povstal, bol Ním stvorený.",
+
+    "jSub3": "Len Boh môže súdiť",
+
+    "jVerse4": "A Otec ani nesúdi nikoho, ale celý súd odovzdal Synovi, aby všetci ctili Syna tak, ako ctia Otca.",
+    "jRef4": "Ján 5:22",
+
+    "jText4": "Boh zveril Ježišovi Svoju autoritu.",
+
+    "jSub4": "Len Boha máme uctievať",
+
+    "jVersex5": "Lebo nesmieš sa klaňať inému bohu, pretože Hospodin, ktorého meno je Žiarlivý, je naozaj žiarlivý Boh.",
+    "jRefx5": "Exodus 34:14",
+
+    "jVersexx5": "A Otec ani nesúdi nikoho, ale celý súd odovzdal Synovi, aby všetci ctili Syna tak, ako ctia Otca. Kto nectí Syna, nectí ani Otca, ktorý Ho poslal.",
+    "jRefxx5": "Ján 5:22-23",
+
+    "jText5": "Máme vzdať česť a slávu Ježišovi, inak si nectíme Boha.",
+
+    "jSub5": "Len Bohu sa má klaňať Jeho stvorenie",
+
+    "jVerse5": "Keď som to počul a videl, padol som k nohám anjelovi, ktorý mi to ukázal, a klaňal som sa mu. On mi však povedal: Pozri, nie tak! Som spoluslužobníkom tvojím, tvojich bratov, prorokov a tých, ktorí zachovávajú slová tejto knihy. Bohu sa klaňaj!",
+    "jRef5": "Zjavenie Jána 22:8-9",
+
+    "jVerse6": "A keď zase uvedie Prvorodeného na svet, hovorí: Nech padnú pred Ním na kolená všetci anjeli Boží!",
+    "jRef6": "Židom 1:6",
+
+    "jText6": "Božie stvorenie sa má klaňať Ježišovi.",
+
+    "jSub6": "Len Boh môže vládnuť nad všetkým",
+
+    "jVerse7": "Najvyšší vládne nad kráľovstvom ľudí a dáva ho, komu chce.",
+    "jRef7": "Daniel 4:29",
+    "jVerse8": "Ježiš pristúpil a povedal im: „Daná mi je všetka moc na nebi aj na zemi.",
+    "jRef8": "Matúš 28:18",
+
+    "jText7": "Boh zveril Ježišovi všetku vládu.",
+
+    "jSub6_5": "Len Boh môže odpúšťať hriechy",
+    "jVerse6_5a": "Sedeli tam aj niektorí zákonníci a premýšľali v srdciach: Ktože môže odpúšťať hriechy, ak len nie Jeden, Boh?",
+    "jRef6_5a": "Marek 2:6-7",
+    "jVerse6_5b": "Ježiš povedal ochrnutému: Synu, odpúšťajú sa ti hriechy! Ale aby ste vedeli, že Syn človeka má moc odpúšťať hriechy na zemi - hovorí ochrnutému: - Vravím ti, vstaň; vezmi si lôžko a choď domov! A on vstal, hneď si vzal lôžko a vyšiel pred všetkými, takže všetci zostali ako bez seba a zvelebovali Boha hovoriac: Nikdy sme nevideli nič podobné!",
+    "jRef6_5b": "Marek 2:5, 10-12",
+    "jText6_5": "*po zmŕtvychvstaní dal Pán Ježiš toto právo aj tým, ktorí prijali Ducha Svätého, keďže Ježišov Duch môže odpúšťať hriechy. Len človek pod vedením Ducha Svätého a v poslušnosti Jemu vie, kedy môže prehlásiť odpustenie hriechov ľuďom a kedy ich hriechy zadržať.",
+    "jVerse6_5c": "Ako to povedal, ukázal im ruky aj bok. A zaradovali sa učeníci, keď videli Pána. Ježiš im opäť riekol: Pokoj vám! Ako mňa poslal Otec, aj ja posielam vás. A keď to povedal, dýchol na nich a hovoril: Prijmite Ducha Svätého. Ktorýmkoľvek odpustíte hriechy, odpúšťajú sa im; ktorýmkoľvek zadržíte, zadržujú sa im.",
+    "jRef6_5c": "Ján 20:20-23",
+
+    "jSub7": "Ježiš nie je anjel",
+
+    "jVerse9": "O toľko je dôstojnejší ako anjeli, o koľko ich prevyšuje menom, ktoré zdedil. Veď kedy ktorému anjelovi povedal Boh: Syn môj si Ty, ja som ťa splodil dnes? A inde: Ja Mu budem otcom a On mi bude synom.",
+    "jRef9": "Židom 1:4-5",
+    "jVerse10": "Lebo nie anjelom podriadil Boh budúci svet, o ktorom hovoríme.",
+    "jRef10": "Židom 2:5",
+
+    "jSub8": "Prorok Izaiáš Ho predpovedá ako Boha",
+
+    "jVerse11": "Lebo dieťa sa nám narodilo, syn nám je daný; na jeho pleciach spočinie kniežatstvo, jeho meno bude: Predivný radca, Mocný Boh, Otec večnosti, Knieža pokoja.",
+    "jRef11": "Izaiáš 9:5",
+
+    "jSub9": "Slovo, ktoré sa stalo telom je Boh",
+
+    "jVerse12": "Na počiatku bolo Slovo a Slovo bolo u Boha a Boh bol to Slovo.",
+    "jRef12": "Ján 1:1",
+    "jText8": "Grécky originál označuje Boha slovom theón a theós: “Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν (theón), καὶ θεὸς (theós) ἦν ὁ λόγος.” ",
+
+    "jVerse13": "A to Slovo stalo sa telom, prebývalo medzi nami, a my sme hľadeli na Jeho slávu ako na slávu jednorodeného od Otca, (bolo) plné milosti a pravdy.",
+    "jRef13": "Ján 1:14",
+
+    "jText9": "Ježiš prišiel v tele na svet, takže On je tým Slovom.",
+
+    "jSub10": "SOM je Boh",
+
+    "jVerse14": "Boh riekol Mojžišovi: SOM, KTORÝ SOM. Riekol ďalej: Tak povedz Izraelcom: Poslal ma k vám SOM. ",
+    "jRef14": "Exodus 3:14",
+    "jVerse15": "Hovorím vám to už teraz, skôr, ako sa to stane, aby ste uverili, keď sa to stane, že ja SOM.",
+    "jRef15": "Ján 13:19",
+    "jVerse16": "Ježiš im riekol: Veru, veru, hovorím vám: Skôr, ako bol Abrahám, ja SOM.",
+    "jRef16": "Ján 8:58",
+
+    "jVerse17": " Preto som vám povedal, že umriete v hriechoch, lebo ak neuveríte, že ja SOM, umriete v hriechoch.",
+    "jRef17": "Ján 8:24",
+
+    "jSub11": "Učeník dosvedčuje, že Ježiš je Boh",
+
+    "jVerse18": "A prišiel Ježiš, hoci dvere boli zatvorené, a postaviac sa do prostriedku, riekol im: Pokoj vám! Potom hovorí Tomášovi: Daj sem prst a pozri sa na moje ruky; daj sem ruku a vlož ju do môjho boku a nebuď neveriaci, ale veriaci. Tomáš mu povedal: Pán môj a Boh môj!",
+    "jRef18": "Ján 20:26-28",
+
+    "jSub12": "Pavol apoštol označuje Ježiša za Boha",
+
+    "jVerse19": " Ich sú otcovia a z nich je Kristus podľa tela, Boh nad všetkým, požehnaný naveky.",
+    "jRef19": "Rimanom 9:5",
+
+    "jText10": "Rovnako aj grécky originál nerozdeľuje túto vetu na dve, ale pokračuje v nej čiarkou pred slovom Boh (theós) bez prerušenia: “ὧν οἱ πατέρες, καὶ ἐξ ὧν ὁ χριστὸς τὸ κατὰ σάρκα, ὁ ὢν ἐπὶ πάντων, θεὸς (theós) εὐλογητὸς εἰς τοὺς αἰῶνας· ἀμήν.”",
+
+    "jSub13": "Sám Boh oslovuje Ježiša ako Boha",
+
+    "jVerse20": "Ale k Synovi (Boh hovorí): Tvoj trón, ó Bože, je naveky vekov a: žezlo spravodlivosti je žezlom Jeho kráľovstva; miloval si spravodlivosť a nenávidel si neprávosť; preto pomazal Ťa, ó Bože, Tvoj Boh olejom veselia nad Tvojich druhov.",
+    "jRef20": "Židom 1:8-9"
+  },
+
+  "english": {
+    "jTitle": "Is Jesus God?",
+
+    "jText1": "To be God is to have unique divine properties that no other created being possesses. God's Word defines various areas that belong to God alone and that man is forbidden to attribute to any created being.",
+
+    "jSub2": "Only God can create",
+
+    "jVerse1": "In the beginning God created the heavens and the earth.",
+    "jRef1": "Genesis 1:1",
+
+    "jVerse2": "Through Him all things were made, and without Him nothing was made that has been made.",
+    "jRef2": "John 1:3",
+
+    "jVerse3": "He was in the world, and though the world was made through Him, the world did not recognize Him. He came to His own, and His own did not receive Him.",
+    "jRef3": " John 1:10-11",
+    "jText2": "The world arose through Jesus, was created by Him.",
+
+    "jSub3": "",
+
+    "jVerse4": "",
+    "jRef4": "",
+    "jText4": "",
+
+    "jSub4": "We are to worship only God",
+
+    "jVersex5": "For you must not worship any other god, for the Lord, whose name is Jealous, is a jealous God.",
+    "jRefx5": "Exodus 34:14",
+    "jVersexx5": "Furthermore, the Father judges no one, but has assigned all judgment to the Son, so that all may honor the Son just as they honor the Father. Whoever does not honor the Son does not honor the Father who sent Him.",
+    "jRefxx5": "John 5:22-23",
+    "jText5": "We are to give honor and glory to Jesus, otherwise we are not honoring God.",
+
+    "jSub5": "Creation is to bow down just before God alone",
+
+    "jVerse5": "And I am John, who heard and saw these things. And when I had heard and seen them, I fell down to bow down at the feet of the angel who had shown me these things. But he said to me, “Do not do that! I am a fellow servant with you and your brothers the prophets, and with those who keep the words of this book. Bow before God!”",
+    "jRef5": "Revelation 22:8-9",
+    "jVerse6": "And again, when God brings His firstborn into the world, He says: “Let all God’s angels bow down before Him.”",
+    "jRef6": "Hebrews 1:6",
+    "jText6": " God's creation is to worship Jesus.",
+
+    "jSub6": "Only God can rule over everything",
+    "jVerse7": "The Most High rules over the kingdom of mankind and gives it to whom He wishes.",
+    "jRef7": "Daniel 4:32",
+    "jVerse8": "Then Jesus came to them and said, “All authority in heaven and on earth has been given to Me.”",
+    "jRef8": "Matthew 28:18",
+    "jText7": "God entrusted all the reign to Jesus.",
+
+    "jSub6_5": "Only God can forgive sins",
+    "jVerse6_5a": "Now some teachers of the law were sitting there, thinking to themselves, Who can forgive sins but God alone?",
+    "jRef6_5a": "Mark 2:6-7",
+    "jVerse6_5b": "Jesus said to the paralyzed man, Son, your sins are forgiven. But I want you to know that the Son of Man has authority on earth to forgive sins. So he said to the man, I tell you, get up, take your mat and go home. He got up, took his mat and walked out in full view of them all. This amazed everyone and they praised God, saying, We have never seen anything like this!",
+    "jRef6_5b": "Mark 2:5, 10-12",
+    "jText6_5": "*After the resurrection, the Lord Jesus gave this right to those who received the Holy Spirit, since the Spirit of Jesus can forgive sins. Only a person under the guidance of the Holy Spirit and obedience to Him knows, when to declare the forgiveness of sins to people and when to retain their sins.",
+    "jVerse6_5c": "After he said this, he showed them his hands and side. The disciples were overjoyed when they saw the Lord. Again Jesus said, Peace be with you! As the Father has sent me, I am sending you. And with that he breathed on them and said, Receive the Holy Spirit. If you forgive anyone's sins, their sins are forgiven; if you do not forgive them, they are not forgiven.",
+    "jRef6_5c": "John 20:20-23",
+
+    "jSub7": "Jesus is not an angel",
+    "jVerse9": "So He became as far superior to the angels as the name He has inherited is excellent beyond theirs. For to which of the angels did God ever say: “You are My Son; today I have become Your Father”? Or again: “I will be His Father, and He will be My Son.” ",
+    "jRef9": "Hebrews 1:4-5",
+    "jVerse10": "For it is not to angels that He has subjected the world to come, about which we are speaking.",
+    "jRef10": "Hebrews 2:5",
+
+    "jSub8": "The prophet Isaiah predicts Him as God",
+    "jVerse11": "For unto us a child is born, unto us a son is given, and the government will be upon His shoulders. And He will be called Wonderful Counselor, Mighty God, Everlasting Father, Prince of Peace.",
+    "jRef11": "Isaiah 9:6",
+
+    "jSub9": "The Word that became flesh is God",
+
+    "jVerse12": "In the beginning was the Word, and the Word was with God, and the Word was God.",
+    "jRef12": "John 1:1",
+    "jText8": "Greek original refers to God with the word theón and theós: “Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν (theón), καὶ θεὸς (theós) ἦν ὁ λόγος.”",
+    "jVerse13": "The Word became flesh and made His dwelling among us. We have seen His glory, the glory of the one and only Son  from the Father, full of grace and truth.",
+    "jRef13": "John 1:14",
+    "jText9": " Jesus came into the world in the flesh, so He is that Word.",
+
+    "jSub10": "I AM is God",
+
+    "jVerse14": " God said to Moses, “I AM WHO I AM. This is what you are to say to the Israelites: ‘I AM has sent me to you.’”",
+    "jRef14": "Exodus 3:14",
+    "jVerse15": "I am telling you now before it happens, so that when it comes to pass, you will believe that I AM (He).",
+    "jRef15": "John 13:19",
+    "jVerse16": "“Truly, truly, I tell you,” Jesus declared, “before Abraham was born, I AM!”",
+    "jRef16": "John 8:58",
+
+    "jVerse17": "That is why I told you that you would die in your sins. For unless you believe that I AM (He), you will die in your sins.",
+    "jRef17": "John 8:24",
+
+    "jSub11": "The disciple testifies that Jesus is God",
+    "jVerse18": "Eight days later, His disciples were once again inside with the doors locked, and Thomas was with them. Jesus came and stood among them and said, “Peace be with you.” Then Jesus said to Thomas, “Put your finger here and look at My hands. Reach out your hand and put it into My side. Stop doubting and believe.” Thomas replied, “My Lord and my God!” ",
+    "jRef18": "John 20:26-28",
+
+    "jSub12": "Paul the apostle refers to Jesus as God",
+    "jVerse19": "Theirs are the patriarchs, and from them proceeds the human descent of Christ, who is God over all, forever worthy of praise!",
+    "jRef19": "Romans 9:5",
+    "jText10": "Likewise, the Greek original does not divide this sentence into two, but continues it with a comma before the word God (theós) without interruption: “ὧν οἱ πατέρες, καὶ ἐξ ὧν ὁ χριστὸς τὸ κατὰ σάρκα, ὁ ὢν ἐπὶ πάντων, θεὸς (theós) εὐλογητὸς εἰς τοὺς αἰῶνας· ἀμήν.”",
+
+    "jSub13": "God Himself addresses Jesus as God",
+
+    "jVerse20": "But about the Son He (God) says: “Your throne, O God, endures forever and ever, and justice is the scepter of Your kingdom. You have loved righteousness and hated wickedness; therefore God, Your God, has anointed You above Your companions with the oil of joy.”",
+    "jRef20": "Hebrews 1:8-9"
+  },
+  "czech": {
+    "jTitle": "Je Ježíš Bůh?",
+
+    "jText1": "Být Bohem znamená mít jedinečné božské vlastnosti, které nemá žádná stvořená bytost. Boží Slovo vymezuje různé oblasti, které přísluší jen Bohu a které má člověk zakázáno přisuzovat kterékoli stvořené bytosti.",
+
+    "jSub2": "Jen Bůh může stvořit",
+
+    "jVerse1": "Na počátku stvořil Bůh nebe a zemi.",
+    "jRef1": "Genesis 1:1",
+
+    "jVerse2": "Jím (Slovem, které se stalo tělem) povstalo všechno a bez Něho nepovstalo nic, co povstalo.",
+    "jRef2": "Jan 1:3",
+
+    "jVerse3": "Bylo ve světě a svět Ním povstal, ale svět Ho neznal. Do svého vlastního přišel, a Jeho vlastní Ho nepřijali.",
+    "jRef3": " Jan 1:10-11",
+    "jText2": "Svět Ježíšem povstal, byl Ním stvořen.",
+
+    "jSub4": "Jen Boha máme uctívat",
+
+    "jVersex5": "Neboť nesmíš se klanět jinému bohu, protože Hospodin, jehož jméno je Žárlivý, je opravdu žárlivý Bůh.",
+    "jRefx5": "Exodus 34:14",
+
+    "jVersexx5": "A Otec ani nesoudí nikoho, ale celý soud předal Synovi, aby všichni ctili Syna tak, jak ctí Otce. Kdo nectí Syna, nectí ani Otce, který Ho poslal.",
+    "jRefxx5": "Jan 5:22-23",
+
+    "jText5": "Máme vzdát čest a slávu Ježíši, jinak si nectíme Boha.",
+
+    "jSub5": "Jen Bohu se má klanět Jeho stvoření",
+
+    "jVerse5": "Když jsem to slyšel a viděl, padl jsem k nohám andělovi, který mi to ukázal, a klaněl jsem se mu. On mi však řekl: Podívej, ne tak! Jsem spoluslužebníkem tvým, tvých bratrů, proroků a těch, kteří zachovávají slova této knihy. Bohu se klaněj!",
+    "jRef5": "Zjevení Jana 22:8-9",
+
+    "jVerse6": "A když zase uvede Prvorozeného na svět, praví: Ať padnou před Ním na kolena všichni andělé Boží!",
+    "jRef6": "Židům 1:6",
+
+    "jText6": "Boží stvoření se má klanět Ježíšovi.",
+
+    "jSub6": "Jen Bůh může vládnout nad vším",
+
+    "jVerse7": "Nejvyšší vládne nad královstvím lidí a dává ho, komu chce.",
+    "jRef7": "Daniel 4:29",
+    "jVerse8": "Ježíš přistoupil a řekl jim: „Daná mi je všechna moc na nebi i na zemi.",
+    "jRef8": "Matouš 28:18",
+
+    "jText7": "Bůh svěřil Ježíši všechnu vládu.",
+
+    "jSub6_5": "Jen Bůh může odpouštět hříchy",
+    "jVerse6_5a": "Seděli tam někteří ze zákoníků a v duchu uvažovali: Kdo jiný může odpouštět hříchy než Bůh?",
+    "jRef6_5a": "Marek 2:6-7",
+    "jVerse6_5b": "Ježíš řekl ochrnutému: Synu, odpouštějí se ti hříchy. Abyste však věděli, že Syn člověka má moc na zemi odpouštět hříchy – řekne ochrnutému: Pravím ti, vstaň, vezmi své lože a jdi domů! On vstal, vzal hned své lože a vyšel před očima všech, takže všichni žasli a chválili Boha: Něco takového jsme ještě nikdy neviděli.",
+    "jRef6_5b": "Marek 2:5, 10-12",
+    "jText6_5": "*po zmrtvýchvstání dal Pán Ježíš toto právo i těm, kteří přijali Ducha Svatého, protože Ježíšův Duch může odpouštět hříchy. Jen člověk pod vedením Ducha Svatého a v poslušnosti Jemu ví, kdy může prohlásit odpuštění hříchů lidem a kdy je hříchy zadržet.",
+    "jVerse6_5c": "Když to řekl, ukázal jim ruce a bok. Učedníci se zaradovali, když spatřili Pána. Ježíš jim znovu řekl: Pokoj vám. Jako mne poslal Otec, tak já posílám vás. Po těch slovech na ně dechl a řekl jim: Přijměte Ducha svatého. Komu odpustíte hříchy, tomu jsou odpuštěny, komu je neodpustíte, tomu odpuštěny nejsou.",
+    "jRef6_5c": "Jan 20:20-23",
+
+    "jSub7": "  Ježíš není anděl",
+
+    "jVerse9": "O tolik je důstojnější než andělé, o kolik je převyšuje jménem, které zdědil. Vždyť kdy kterému andělovi řekl Bůh: Synu můj jsi Ty, já jsem tě zplodil dnes? A jinde: Já Mu budu otcem a On mi bude synem.",
+    "jRef9": "Židům 1:4-5",
+    "jVerse10": "Neboť ne andělům podřídil Bůh budoucí svět, o kterém mluvíme.",
+    "jRef10": "Židům 2:5",
+
+    "jSub8": "Prorok Izajáš Ho předpovídá jako Boha",
+
+    "jVerse11": "Neboť dítě se nám narodilo, syn nám je dán; na jeho ramenou spočine knížectví, jeho jméno bude: Podivný rádce, Mocný Bůh, Otec věčnosti, Kníže pokoje.",
+    "jRef11": "Izajáš 9:5",
+
+    "jSub9": "Slovo, které se stalo tělem je Bůh",
+
+    "jVerse12": "Na počátku bylo Slovo a Slovo bylo u Boha a Bůh byl to Slovo.",
+    "jRef12": "Jan 1:1",
+    "jText8": "Řecký originál označuje Boha slovem theon a theós: “Ἐν ἀρχῇ ἦν ὁ λόγος, καὶ ὁ λόγος ἦν πρὸς τὸν θεόν (theón), καὶ θεὸς (theós) ἦν ὁ λόγος.” ",
+
+    "jVerse13": "A to Slovo stalo se tělem, přebývalo mezi námi, a my jsme hleděli na Jeho slávu jako na slávu jednorozeného od Otce, (bylo) plné milosti a pravdy.",
+    "jRef13": "Jan 1:14",
+
+    "jText9": "Ježíš přišel v těle na svět, takže On je tím Slovem.",
+
+    "jSub10": "JSEM je Bůh",
+
+    "jVerse14": "Bůh řekl Mojžíšovi: JSEM, KTERÝ JSEM. Řekl dále: Tak řekni Izraelcům: Poslal mě k vám JSEM.",
+    "jRef14": "Exodus 3:14",
+    "jVerse15": "Říkám vám to už teď, dříve, než se to stane, abyste uvěřili, když se to stane, že já JSEM.",
+    "jRef15": "Jan 13:19",
+    "jVerse16": "Ježíš jim řekl: Amen, amen, pravím vám: Než byl Abraham, já JSEM.",
+    "jRef16": "Jan 8:58",
+
+    "jVerse17": "Proto jsem vám řekl, že umřete v hříších, neboť neuvěříte-li, že já JSEM, umřete v hříších.",
+    "jRef17": "Jan 8:24",
+
+    "jSub11": "Učedník dosvědčuje, že Ježíš je Bůh",
+
+    "jVerse18": "A přišel Ježíš, ačkoli dveře byly zavřené, a postavily se do prostředku, řekl jim: Pokoj vám! Potom říká Tomášovi: Dej sem prst a podívej se na mé ruce; dej sem ruku a vlož ji do mého boku a nebuď nevěřící, ale věřící. Tomáš mu řekl: Pán můj a Bůh můj!",
+    "jRef18": "Jan 20:26-28",
+
+    "jSub12": "Pavel apoštol označuje Ježíše za Boha",
+
+    "jVerse19": "Jejich jsou otcové a z nich je Kristus podle těla, Bůh nad vším, požehnaný navěky.",
+    "jRef19": "Římanům 9:5",
+
+    "jText10": "Stejně tak řecký originál nerozděluje tuto větu na dvě, ale pokračuje v ní čárkou před slovem Bůh (theós) bez přerušení: “ὧν οἱ πατέρες, καὶ ἐξ ὧν ὁ χριστὸς τὸ κατὰ σάρκα, ὁ ὢν ἐπὶ πάντων, θεὸς (theós) εὐλογητὸς εἰς τοὺς αἰῶνας· ἀμήν.”",
+
+    "jSub13": "Sám Bůh oslovuje Ježíše jako Boha",
+
+    "jVerse20": "Ale k Synu (Bůh říká): Tvůj trůn, ó Bože, je navěky věků a: žezlo spravedlnosti je žezlem Jeho království; miloval jsi spravedlnost a nenáviděl jsi nepravost; proto pomazal Tě, ó Bože, Tvůj Bůh olejem veselí nad Tvých druhů.",
+    "jRef20": "Židům 1:8-9"
+  }
+}

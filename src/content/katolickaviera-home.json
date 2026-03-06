@@ -1,0 +1,221 @@
+{
+  "slovak": {
+    "kvHeroTitle": "Nespoliehaj sa na cirkevné tradície! Riaď sa Božím Slovom!",
+    "kvHeroVerse": "Ak vy zostanete v mojom slove, ste naozaj moji učeníci. A poznáte pravdu a pravda vás vyslobodí.",
+    "kvHeroRef": "Ján 8:31-32",
+
+    "kvQ1": "Ako sa Božie Slovo pozerá na prihováranie veriaceho k svätcom?",
+    "kvVerse1": "Ak sa niekto obráti k duchom mŕtvych a k jasnovidcom a smilne sa im zapredá, ja sám obrátim svoju tvár proti tej osobe a odstránim ju z jej ľudu.",
+    "kvRef1": "Levitikus 20:6",
+    "kvText1": "Umožňuje to apokryfná kniha Makabejských, ktorá je v rozpore s Mojžišovým zákonom.",
+
+    "kvQ2": "Kam zaraďuje Božie Slovo modlitby k niekomu inému ako k Bohu?",
+    "kvVerse2a": "Ale čo (pohania) obetujú, to obetujú démonom, a nie Bohu. A ja nechcem, aby ste boli spoločníkmi démonov. Nemôžete piť z kalicha Pánovho aj z kalicha démonov: nemôžete mať podiel pri stole Pánovom aj pri stole démonov. Či chceme azda rozhnevať Pána?",
+    "kvRef2a": "Prvý Korinťanom 10:20-22",
+    "kvVerse2b": "Preto, moji milovaní, utekajte pred modloslužobníctvom!",
+    "kvRef2b": "Prvý Korinťanom 10:14",
+
+    "kvQ3": "Dokazuje Božie Slovo Máriu ako bezhriešnu?",
+    "kvVerse3": "Preto ako skrze jedného človeka (Adama) hriech prišiel na svet a skrze hriech smrť - tak smrť prišla na všetkých ľudí, pretože všetci zhrešili.",
+    "kvRef3": "Rimanom 5:12",
+
+    "kvQ4": "Hovorí Božie Slovo, že Mária ostala pannou celý svoj život?",
+    "kvVerse4": "Keď ešte hovoril k zástupom, ajhľa, Jeho matka a bratia stáli vonku a žiadali si hovoriť s Ním.",
+    "kvRef4": "Matúš 12:46",
+
+    "kvQ5": "Bola Mária nanebovzatá ak to Božie Slovo neuvádza?",
+    "kvVerse5a": "Každá reč Božia je prečistená. Nepridávaj nič k Jeho slovám, aby ťa nestrestal a neoznačil za klamára.",
+    "kvRef5a": "Príslovia 30:5-6",
+    "kvVerse5b": "Nefalšujeme slovo Božie, ale zjavujeme pravdu, a tak sa odporúčame každému ľudskému svedomiu pred Bohom.",
+    "kvRef5b": "Druhý Korinťanom 4:2",
+
+    "kvQ6": "Učí Božie Slovo orodovať u Márii?",
+    "kvVerse6a": "Pánovi, svojmu Bohu, budeš sa klaňať a len Jemu budeš slúžiť.",
+    "kvRef6a": "Lukáš 4:8",
+    "kvVerse6b": "Milovať budeš Pána, svojho Boha, celým srdcom, celou dušou a celou mysľou.",
+    "kvRef6b": "Matúš 22:37",
+    "kvVerse6c": "Jeden aj Prostredník medzi Bohom a ľuďmi, človek Ježiš Kristus.",
+    "kvRef6c": "Prvý Timotejovi 2:5",
+    "kvVerse6d": "Nik neprichádza k Otcovi, ak len nie skrze mňa.",
+    "kvRef6d": "Ján 14:6",
+
+    "kvQ7": "Povoľuje Božie Slovo čo i len samotnú výrobu sôch a obrazov?",
+    "kvVerse7": "Neurobíš si vyrezávanú modlu ani podobu ničoho, čo je na nebi hore, čo je na zemi dolu, alebo čo je vo vode pod zemou! Nebudeš sa im klaňať ani im slúžiť, lebo ja som Hospodin, tvoj Boh, Boh horliaci.",
+    "kvRef7": "Exodus 20:4-5",
+
+    "kvQ8": "Možno pokľaknúť pred čímkoľvek iným ako pred Bohom?",
+    "kvVerse8a": "Keď som to počul a videl, padol som k nohám anjelovi, ktorý mi to ukázal, a klaňal som sa mu. On mi však povedal: Pozri, nie tak! Som spoluslužobníkom tvojím, tvojich bratov, prorokov a tých, ktorí zachovávajú slová tejto knihy. Bohu sa klaňaj!",
+    "kvRef8a": "Zjavenie Jána 22:8-9",
+    "kvVerse8b": "Nebudeš mať iných bohov okrem mňa!",
+    "kvRef8b": "Exodus 20:3",
+    "kvVerse8c": "Jeden je totiž Boh.",
+    "kvRef8c": "Prvý Timotejovi 2:5",
+
+    "kvQ9": "Je potrebné niečo pridávať k Božiemu Slovu?",
+    "kvVerse9a": "I riekol Pán v noci vo videní Pavlovi: Neboj sa, len hovor a nemlč. I zostal tam rok a šesť mesiacov a vyučoval medzi nimi slovu Božiemu.",
+    "kvRef9a": "Skutky apoštolov 18:9,11",
+    "kvVerse9b": "A keď otvoril piatu pečať, videl som pod oltárom duše zamordovaných pre slovo Božie a pre svedectvo, ktoré vydávali.",
+    "kvRef9b": "Zjavenie Jána 6:9",
+
+    "kvQ10": "Čo hovorí Božie Slovo o cirkevných tradíciách, ktoré sa od neho odchyľujú?",
+    "kvVerse10a": "Darmo ma však uctievajú, keď ľudským príkazom učia ako učeniam (Božím). Opustili ste prikázanie Božie a pridŕžate sa podania ľudského. Potom im povedal: Pekne-krásne rušíte prikázanie Božie, aby ste zachovávali svoje podanie.",
+    "kvRef10a": "Marek 7:7-9",
+    "kvVerse10b": "Ak vy zostanete v mojom slove, ste naozaj moji učeníci. A poznáte pravdu a pravda vás vyslobodí.",
+    "kvRef10b": "Ján 8:31-32",
+
+    "kvQ11": "Raz sa každý z nás bude zodpovedať pred Bohom sám za seba",
+    "kvVerse11": "Kto hovorí: Poznám Ho, ale nezachováva Jeho prikázania, je klamár a niet v ňom pravdy.",
+    "kvRef11": "Prvý Jánov 2:4",
+    "kvText11": "Prevádzkuješ nemanželský vzťah? Žiadostivo hľadíš na ženy? Berieš Meno Božie nadarmo? Neži vo falošnej istote spasenia! Ak zotrvávaš vedome v hriechu, tvoja viera je mŕtva, zapieraš tým Ježiša a On ťa má za klamára.",
+    "kvVerse11b": "Nie každý, kto mi hovorí: Pane, Pane! vojde do kráľovstva nebeského, ale ten, kto činí vôľu môjho Otca nebeského.",
+    "kvRef11b": "Matúš 7:21",
+
+    "kvClosing": "Prajem ti, aby si spoznal pravdu, bol oslobodený od tradícií a tak si sa raz mohol čistý postaviť pred Boha ako Jeho verný služobník."
+  },
+  "english": {
+    "kvHeroTitle": "Do not rely on church traditions! Follow God's Word!",
+    "kvHeroVerse": "If you continue in My word, you are truly My disciples. Then you will know the truth, and the truth will set you free.",
+    "kvHeroRef": "John 8:31-32",
+
+    "kvQ1": "How does God's Word look at the believer's intercession with the saints?",
+    "kvVerse1": "Whoever turns to mediums or spiritists to prostitute himself with them, I will also set My face against that person and cut him off from his people.",
+    "kvRef1": "Leviticus 20:6",
+    "kvText1": "This is made possible by the apocryphal book of Maccabees, which contradicts the Law of Moses.",
+
+    "kvQ2": "Where does God's Word place prayers to anyone other than God?",
+    "kvVerse2a": "No, but the sacrifices of pagans are offered to demons, not to God. And I do not want you to be participants with demons. You cannot drink the cup of the Lord and the cup of demons too; you cannot partake in the table of the Lord and the table of demons too. Are we trying to provoke the Lord to jealousy? Are we stronger than He?",
+    "kvRef2a": "First Corinthians 10:20-22",
+    "kvVerse2b": "Therefore, my beloved, flee from idolatry.",
+    "kvRef2b": "First Corinthians 10:14",
+
+    "kvQ3": "Does God's Word prove Mary as sinless?",
+    "kvVerse3": "Therefore, just as sin entered the world through one man, and death through sin, so also death was passed on to all men, because all sinned.",
+    "kvRef3": "Romans 5:12",
+
+    "kvQ4": "Does the Word of God say that Mary remained a virgin all her life?",
+    "kvVerse4": "While Jesus was still speaking to the crowds, His mother and brothers stood outside, wanting to speak to Him.",
+    "kvRef4": "Matthew 12:46",
+
+    "kvQ5": "Was Mary ascended to heaven if God's Word does not state it?",
+    "kvVerse5a": "Every word of God is flawless; He is a shield to those who take refuge in Him. Do not add to His words, lest He rebuke you and prove you a liar.",
+    "kvRef5a": "Proverbs 30:5-6",
+    "kvVerse5b": "We do not practice deceit, nor do we distort the word of God. On the contrary, by open proclamation of the truth, we commend ourselves to every man's conscience in the sight of God.",
+    "kvRef5b": "Second Corinthians 4:2",
+
+    "kvQ6": "Does the Word of God teach to pray to Mary?",
+    "kvVerse6a": "Worship the Lord your God and serve Him only.",
+    "kvRef6a": "Luke 4:8",
+    "kvVerse6b": "Love the Lord your God with all your heart and with all your soul and with all your mind.",
+    "kvRef6b": "Matthew 22:37",
+    "kvVerse6c": "There is one mediator between God and men, the man Christ Jesus.",
+    "kvRef6c": "First Timothy 2:5",
+    "kvVerse6d": "No one comes to the Father except through Me.",
+    "kvRef6d": "John 14:6",
+
+    "kvQ7": "Does God's Word allow even the very production of statues and paintings?",
+    "kvVerse7": "You shall not make for yourself an idol in the form of anything in the heavens above, on the earth below, or in the waters beneath. You shall not bow down to them or worship them; for I, the Lord your God, am a jealous God.",
+    "kvRef7": "Exodus 20:4-5",
+
+    "kvQ8": "Is it possible to kneel before anything other than God?",
+    "kvVerse8a": "And I am John, who heard and saw these things. And when I had heard and seen them, I fell down to worship at the feet of the angel who had shown me these things. But he said to me, \"Do not do that! I am a fellow servant with you and your brothers the prophets, and with those who keep the words of this book. Worship God!\"",
+    "kvRef8a": "Revelation 22:8-9",
+    "kvVerse8b": "You shall have no other gods before Me.",
+    "kvRef8b": "Exodus 20:3",
+    "kvVerse8c": "For there is one God.",
+    "kvRef8c": "First Timothy 2:5",
+
+    "kvQ9": "Is it necessary to add something to God's Word?",
+    "kvVerse9a": "One night the Lord spoke to Paul in a vision: \"Do not be afraid; keep on speaking; do not be silent.\" So Paul stayed for a year and a half, teaching the word of God among the Corinthians.",
+    "kvRef9a": "Acts 18:9,11",
+    "kvVerse9b": "And when the Lamb opened the fifth seal, I saw under the altar the souls of those who had been slain for the word of God and for the testimony they had upheld.",
+    "kvRef9b": "Revelation 6:9",
+
+    "kvQ10": "What does God's Word say about church traditions that deviate from it?",
+    "kvVerse10a": "They worship Me in vain; they teach as doctrine the precepts of men. You have disregarded the commandment of God to keep the tradition of men. He went on to say, You neatly set aside the command of God to maintain your own tradition.",
+    "kvRef10a": "Mark 7:7-9",
+    "kvVerse10b": "If you continue in My word, you are truly My disciples. Then you will know the truth, and the truth will set you free.",
+    "kvRef10b": "John 8:31-32",
+
+    "kvQ11": "One day, each of us will answer to God for himself",
+    "kvVerse11": "If anyone says, \"I know Him,\" but does not keep His commandments, he is a liar, and the truth is not in him.",
+    "kvRef11": "First John 2:4",
+    "kvText11": "Do you have an extramarital relationship? Do you look lustfully at women? Do you take God's Name in vain? Do not live in false assurance of salvation! If you consciously persist in sin, your faith is dead, you are denying Jesus and He considers you a liar.",
+    "kvVerse11b": "Not everyone who says to Me, 'Lord, Lord,' will enter the kingdom of heaven, but only he who does the will of My Father in heaven.",
+    "kvRef11b": "Matthew 7:21",
+
+    "kvClosing": "I wish you to know the truth, to be freed from traditions, so that one day you could stand clean before God as His faithful servant."
+  },
+  "czech": {
+    "kvHeroTitle": "Nespoléhej se na církevní tradice! Řiď se Božím Slovem!",
+    "kvHeroVerse": "Pokud vy zůstanete v mém slově, jste opravdu moji učedníci. A znáte pravdu a pravda vás vysvobodí.",
+    "kvHeroRef": "Jan 8:31-32",
+
+    "kvQ1": "Jak se Boží Slovo dívá na přimlouvání věřícího ke světcům?",
+    "kvVerse1": "Obrátí-li se někdo k duchům mrtvých a k jasnovidcům a smilně se jim zaprodá, já sám obrátím svou tvář proti té osobě a odstraním ji z jejího lidu.",
+    "kvRef1": "Leviticus 20:6",
+    "kvText1": "Umožňuje to apokryfní kniha Makabejských, která je v rozporu s Mojžíšovým zákonem.",
+
+    "kvQ2": "Kam řadí Boží Slovo modlitby k někomu jinému než k Bohu?",
+    "kvVerse2a": "Ale co (pohané) obětují, to obětují démonům, a ne Bohu. A já nechci, abyste byli společníky démonů. Nemůžete pít z kalicha Páně i z kalicha démonů: nemůžete mít podíl u stolu Páně i u stolu démonů. Chceme snad rozhněvat Pána?",
+    "kvRef2a": "První Korinťanům 10:20-22",
+    "kvVerse2b": "Proto, moji milovaní, utíkejte před modloslužebnictvím!",
+    "kvRef2b": "První Korinťanům 10:14",
+
+    "kvQ3": "Dokazuje Boží Slovo Marii jako bezhříšnou?",
+    "kvVerse3": "Proto jako skrze jednoho člověka (Adama) hřích přišel na svět a skrze hřích smrt - tak smrt přišla na všechny lidi, protože všichni zhřešili.",
+    "kvRef3": "Římanům 5:12",
+
+    "kvQ4": "Říká Boží Slovo, že Marie zůstala pannou celý svůj život?",
+    "kvVerse4": "Když ještě mluvil k zástupům, ihle, Jeho matka a bratři stáli venku a žádali si mluvit s Ním.",
+    "kvRef4": "Matouš 12:46",
+
+    "kvQ5": "Byla Marie nanebevzata, pokud to Boží Slovo neuvádí?",
+    "kvVerse5a": "Každá řeč Boží je přečištěná. Nepřidávej nic k Jeho slovům, aby tě nestřestal a neoznačil za lháře.",
+    "kvRef5a": "Přísloví 30:5-6",
+    "kvVerse5b": "Nefalšujeme slovo Boží, ale zjevujeme pravdu, a tak se doporučujeme každému lidskému svědomí před Bohem.",
+    "kvRef5b": "Druhý Korinťanům 4:2",
+
+    "kvQ6": "Učí Boží Slovo orodovat u Marii?",
+    "kvVerse6a": "Pánu, svému Bohu, budeš se klanět a jen Jemu budeš sloužit.",
+    "kvRef6a": "Lukáš 4:8",
+    "kvVerse6b": "Milovat budeš Pána, svého Boha, celým srdcem, celou duší a celou myslí.",
+    "kvRef6b": "Matouš 22:37",
+    "kvVerse6c": "Jeden i Prostředník mezi Bohem a lidmi, člověk Ježíš Kristus.",
+    "kvRef6c": "První Timoteovi 2:5",
+    "kvVerse6d": "Nikdo nepřichází k Otci, než skrze mne.",
+    "kvRef6d": "Jan 14:6",
+
+    "kvQ7": "Povoluje Boží Slovo jen samotnou výrobu soch a obrazů?",
+    "kvVerse7": "Neuděláš si vyřezávanou modlu ani podobu ničeho, co je na nebi nahoře, co je na zemi dolů, nebo co je ve vodě pod zemí! Nebudeš se jim klanět ani jim sloužit, neboť já jsem Hospodin, tvůj Bůh, Bůh horlící.",
+    "kvRef7": "Exodus 20:4-5",
+
+    "kvQ8": "Lze pokleknout před čímkoli jiným než před Bohem?",
+    "kvVerse8a": "Když jsem to slyšel a viděl, padl jsem k nohám andělovi, který mi to ukázal, a klaněl jsem se mu. On mi však řekl: Podívej, ne tak! Jsem spoluslužebníkem tvým, tvých bratrů, proroků a těch, kteří zachovávají slova této knihy. Bohu se klaněj!",
+    "kvRef8a": "Zjevení Jana 22:8-9",
+    "kvVerse8b": "Nebudeš mít jiné bohy kromě mě!",
+    "kvRef8b": "Exodus 20:3",
+    "kvVerse8c": "Jeden je totiž Bůh.",
+    "kvRef8c": "První Timoteovi 2:5",
+
+    "kvQ9": "Je třeba něco přidávat k Božímu Slovu?",
+    "kvVerse9a": "I řekl Pán v noci ve vidění Pavlovi: Neboj se, jen mluv a nemlč. I zůstal tam rok a šest měsíců a vyučoval mezi nimi slovu Božímu.",
+    "kvRef9a": "Skutky apoštolů 18:9,11",
+    "kvVerse9b": "A když otevřel pátou pečeť, viděl jsem pod oltářem duše zamordovaných pro slovo Boží a pro svědectví, které vydávali.",
+    "kvRef9b": "Zjevení Jana 6:9",
+
+    "kvQ10": "Co říká Boží Slovo o církevních tradicích, které se od něho odchylují?",
+    "kvVerse10a": "Darmo mě však uctívají, když lidským příkazem učí jako učením (Božím). Opustili jste přikázání Boží a přidržujete se podání lidského. Potom jim řekl: Pěkně-krásně rušíte přikázání Boží, abyste zachovávali své podání.",
+    "kvRef10a": "Marek 7:7-9",
+    "kvVerse10b": "Pokud vy zůstanete v mém slově, jste opravdu moji učedníci. A znáte pravdu a pravda vás vysvobodí.",
+    "kvRef10b": "Jan 8:31-32",
+
+    "kvQ11": "Jednou se každý z nás bude zodpovídat před Bohem sám za sebe",
+    "kvVerse11": "Kdo říká: Znám Ho, ale nezachovává Jeho přikázání, je lhář a není v něm pravdy.",
+    "kvRef11": "První Janův 2:4",
+    "kvText11": "Provozuješ nemanželský vztah? Žádostivě hledíš na ženy? Bereš Jméno Boží nadarmo? Nežij ve falešné jistotě spasení! Pokud setrváváš vědomě v hříchu, tvá víra je mrtvá, zapíráš tím Ježíše a On tě má za lháře.",
+    "kvVerse11b": "Ne každý, kdo mi říká: Pane, Pane! vejde do království nebeského, ale ten, kdo činí vůli mého Otce nebeského.",
+    "kvRef11b": "Matouš 7:21",
+
+    "kvClosing": "Přeji ti, abys poznal pravdu, byl osvobozen od tradic a tak ses jednou mohl čistý postavit před Boha jako Jeho věrný služebník."
+  }
+}
