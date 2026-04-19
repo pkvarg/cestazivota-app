@@ -7,19 +7,34 @@
     "contact": "Kontakt",
     "language": "Jazyk",
     "cookie": {
-      "message": "Tato stránka používá cookies pro analýzu návštěvnosti.",
+      "message": "Tato stránka používá cookies pro anonymní analýzu návštěvnosti.",
       "accept": "Souhlasím",
       "decline": "Nesouhlasím"
     },
     "footer": {
       "allRightsReserved": "Všechna práva vyhrazena",
-      "developed": "Vyvinuto"
+      "developed": "Vyvinuto",
+      "gdpr": "GDPR"
+    },
+    "gdprPage": {
+      "title": "Ochrana osobních údajů",
+      "intro": "Na této stránce bereme tvé soukromí vážně. Sbíráme jen minimum nezbytných údajů a nikdy je nesdílíme s třetími stranami pro marketingové účely.",
+      "cookiesTitle": "Cookies a analytika",
+      "cookiesBody": "Používáme nástroj Umami pro anonymní analýzu návštěvnosti. Umami je self-hosted služba, která neukládá IP adresy ani žádné osobní identifikátory. Cookies a analytiku načítáme až po tvém souhlasu v cookie liště.",
+      "contactTitle": "Kontaktní formulář",
+      "contactBody": "Pokud nám pošleš zprávu přes formulář v sekci knihy, tvoje e-mailová adresa se použije výhradně k odpovědi. Není uložena v žádné databázi ani přeposílána třetím stranám.",
+      "rightsTitle": "Tvoje práva",
+      "rightsBody": "Máš právo kdykoli svůj souhlas odvolat, požádat o výmaz údajů nebo se dotazovat, jaké údaje o tobě zpracováváme. Napiš nám přes kontaktní formulář."
     },
     "contactForm": {
       "name": "Jméno",
-      "email": "E-mail",
-      "message": "Zpráva",
+      "email": "Tvůj e-mail",
+      "message": "Tvoje zpráva mně",
       "send": "Odeslat",
+      "gdpr": "Souhlasím se ",
+      "gdprLink": "zpracováním údajů",
+      "gdprInfo1": "Tvoje emailová adresa nebude uložena v žádné databázi a bude použita jen k odpovědi na tvou zprávu.",
+      "gdprInfo2": "Po odeslání tvé zprávy ti obratem přijde potvrzení emailem, tak si případně zkontroluj i složku nevyžádané pošty.",
       "success": "Zpráva byla úspěšně odeslána!",
       "error": "Něco se pokazilo. Zkuste to prosím znovu."
     }
@@ -82,18 +97,21 @@
     "s3Text4i": "Amen.",
     "s4Title": "Více se dočteš v této knize",
     "s4Button": "Vytisknutou bezplatnou knihu si ptej u mě",
-    "s5Title": "Pokřtil ses?",
-    "s5Text1": "Pokud jsi uvěřil v Pána Ježíše Krista, tvé hříchy jsou ti odpuštěny a máš věčný život. Nyní je důležité:",
-    "s5Step1": "Dej se pokřtít ponořením do vody",
-    "s5Step2": "Čti Bibli každý den",
-    "s5Step3": "Modli se k Bohu",
-    "s5Step4": "Najdi si společenství věřících",
-    "linkSvedkovia": "Svědkové",
-    "linkSvedkoviaDesc": "Svědek je ten, kdo měl osobní zkušenost a o ní vypovídá",
-    "linkDuhovyrod": "Duhový rod",
-    "linkDuhovyrodDesc": "Ať jsi homosexuál nebo heterosexuál, Ježíš tě miluje stejně!",
-    "linkKatolickaviera": "Katolická víra",
-    "linkKatolickaVieraDesc": "Porovnání katolických tradic s Božím Slovem"
+    "s4ButtonPre": "Vytisknutou bezplatnou knihu si ptej u ",
+    "s4ButtonLink": "mě",
+    "s4ButtonPost": "",
+    "s5Pokrstenie": "Dej se pokřtít ve jménu Ježíše Krista na odpuštění hříchů, začni se každodenně modlit vlastními slovy, aby sis udržoval živý vztah s Bohem, a číst Bibli, abys byl plný Jeho Slova a podle Něho žil. A pravidelně navštěvuj nějaké společenství, kde oslavují jen Boha Otce, Ježíše a Svatého Ducha.",
+    "s5Precon": "Proč nestačí jen formálně uvěřit a dál to neřešit? Protože víra bez osobního vztahu s Ježíšem je jen mrtvé náboženství a víra bez poslušnosti Božímu Slovu je pokrytectvím. Takovou falešnou víru Bůh nepřijme a odsoudí. Mrtvá víra tě nespasí!",
+    "s5PanomIntro": "Pánem ti je ten, koho posloucháš.",
+    "s5PanomVerse": "Kdo říká: Znám Ho, ale nezachovává Jeho přikázání, je lhář a není v něm pravdy. Pokud někdo miluje svět (žádost těla, žádost očí, pýchu života), není v něm lásky k Otci.",
+    "s5PanomRef": "První Janův 2:4,15",
+    "s5PanomAudio": "Více v této audio knize",
+    "s5PanomAudioLink": "Žij s perspektivou věčnosti",
+    "s5PanomAudioKap": "(5. kapitola).",
+    "s5OdkazKV": "Jsou všechny církevní tradice podloženy Božím Slovem? Více na",
+    "s5OdkazSV": "Hlásají svědkové Jehovovi evangelium, jaké hlásali apoštolové? Více na",
+    "s5OdkazDR": "Je emocionální uspokojení cesta k pravému štěstí člověka? Více na",
+    "s5Zaver": "Přeji ti, abys uvěřil pravdě, kterou je Boží Slovo, a získal tak zpět postavení, které ti patří."
   },
   "svedkovia": {
     "siteTitle": "Svědkové",

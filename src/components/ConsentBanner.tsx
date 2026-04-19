@@ -11,6 +11,8 @@ export default function ConsentBanner() {
     const consent = localStorage.getItem('cookie-consent');
     if (!consent) {
       setVisible(true);
+    } else if (consent === 'accepted') {
+      loadAnalytics();
     }
   }, []);
 
@@ -26,11 +28,12 @@ export default function ConsentBanner() {
   }
 
   function loadAnalytics() {
-    // Umami analytics - replace with actual script
+    if (document.querySelector('script[data-umami-loaded]')) return;
     const script = document.createElement('script');
     script.async = true;
     script.defer = true;
-    script.setAttribute('data-website-id', 'YOUR_UMAMI_WEBSITE_ID');
+    script.setAttribute('data-website-id', '50c03fdc-3565-4723-80d0-676f1b37c8f4');
+    script.setAttribute('data-umami-loaded', 'true');
     script.src = 'https://umami-p00gs00gwcwo00s4k4c4kgg8.pictusweb.com/script.js';
     document.head.appendChild(script);
   }

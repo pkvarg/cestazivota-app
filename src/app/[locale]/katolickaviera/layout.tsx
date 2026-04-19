@@ -7,7 +7,7 @@ export default function KatolickaVieraLayout({
   children: React.ReactNode;
 }) {
   return (
-    <div>
+    <div className="font-lora">
       <SubNav />
       {children}
     </div>

@@ -5,9 +5,9 @@ interface VerseProps {
 
 export default function Verse({ text, reference }: VerseProps) {
   return (
-    <blockquote className="my-4 pl-4 border-l-4 border-yellow-400/50">
-      <p className="verse text-lg leading-relaxed">{text}</p>
-      <cite className="verse-ref block mt-1">{reference}</cite>
-    </blockquote>
+    <span className="verse-wrap">
+      <span className="verse">{text}</span>
+      <cite className="verse-ref">{reference}</cite>
+    </span>
   );
 }

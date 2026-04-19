@@ -39,6 +39,20 @@ body {
   }
 }
 
+/* Cesta Života gradient H1 - matches live cestazivota.sk */
+.textgradient-cz {
+  background-image: linear-gradient(
+    to right,
+    rgb(224, 219, 239),
+    rgb(111, 39, 124),
+    rgb(228, 40, 40)
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  color: transparent;
+  -webkit-text-fill-color: transparent;
+}
+
 /* === CESTA ŽIVOTA hero === */
 .hero-gradient-cz {
   background-image: linear-gradient(
@@ -175,6 +189,7 @@ body {
   @apply border-l-0 pl-0 my-0 inline;
 }
 
+.verse-sv blockquote span.verse,
 .verse-sv blockquote p.verse {
   @apply italic text-inherit inline;
   font-size: inherit;

@@ -31,6 +31,9 @@ export default function Footer() {
               <Link href="/katolickaviera" className="hover:text-white transition-colors">
                 {nav('katolickaviera')}
               </Link>
+              <Link href="/gdpr" className="hover:text-white transition-colors">
+                {t('gdpr')}
+              </Link>
             </nav>
           </div>
 
@@ -40,14 +43,13 @@ export default function Footer() {
               &copy; {new Date().getFullYear()} CestaZivota.sk. {t('allRightsReserved')}.
             </p>
             <p className="mt-1">
-              {t('developed')}{' '}
               <a
                 href="https://pictusweb.sk"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="text-yellow-400 hover:underline"
               >
-                PICTUSWEB
+                &lt;/&gt; PICTUSWEB
               </a>
             </p>
           </div>

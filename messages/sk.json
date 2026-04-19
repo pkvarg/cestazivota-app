@@ -7,19 +7,34 @@
     "contact": "Kontakt",
     "language": "Jazyk",
     "cookie": {
-      "message": "Táto stránka používa cookies na analýzu návštevnosti.",
+      "message": "Táto stránka používa cookies na anonymnú analýzu návštevnosti.",
       "accept": "Súhlasím",
       "decline": "Nesúhlasím"
     },
     "footer": {
       "allRightsReserved": "Všetky práva vyhradené",
-      "developed": "Vyvinuté"
+      "developed": "Vyvinuté",
+      "gdpr": "GDPR"
+    },
+    "gdprPage": {
+      "title": "Ochrana osobných údajov",
+      "intro": "Na tejto stránke si berieme tvoje súkromie vážne. Zbierame len minimum nevyhnutných údajov a nikdy ich nezdieľame s tretími stranami na marketingové účely.",
+      "cookiesTitle": "Cookies a analytika",
+      "cookiesBody": "Používame nástroj Umami na anonymnú analýzu návštevnosti. Umami je self-hosted služba, ktorá neukladá IP adresy ani žiadne osobné identifikátory. Cookies a analytiku načítavame až po tvojom súhlase v cookie lište.",
+      "contactTitle": "Kontaktný formulár",
+      "contactBody": "Ak nám pošleš správu cez formulár v sekcii knihy, tvoja e-mailová adresa sa použije výhradne na odpoveď. Nie je ukladaná v žiadnej databáze ani preposielaná tretím stranám.",
+      "rightsTitle": "Tvoje práva",
+      "rightsBody": "Máš právo kedykoľvek svoj súhlas odvolať, požiadať o výmaz údajov alebo sa dotazovať, aké údaje o tebe spracúvame. Napíš nám cez kontaktný formulár."
     },
     "contactForm": {
       "name": "Meno",
-      "email": "E-mail",
-      "message": "Správa",
-      "send": "Odoslať",
+      "email": "Tvoj e-mail",
+      "message": "Tvoja správa mne",
+      "send": "Poslať",
+      "gdpr": "Súhlasím so ",
+      "gdprLink": "spracovaním údajov",
+      "gdprInfo1": "Tvoja emailová adresa nebude uložená v žiadnej databáze a bude použitá len na odpoveď na tvoju správu.",
+      "gdprInfo2": "Po odoslaní tvojej správy ti obratom príde potvrdenie emailom, tak si prípadne skontroluj aj priečinok nevyžiadanej pošty.",
       "success": "Správa bola úspešne odoslaná!",
       "error": "Niečo sa pokazilo. Skúste to prosím znova."
     }
@@ -82,18 +97,22 @@
     "s3Text4i": "Amen.",
     "s4Title": "Viac sa dočítaš v tejto knihe",
     "s4Button": "Vytlačenú bezplatnú knihu si pýtaj u mňa",
-    "s5Title": "Pokrstil si sa?",
-    "s5Text1": "Ak si uveril v Pána Ježiša Krista, tvoje hriechy sú ti odpustené a máš večný život. Teraz je dôležité:",
-    "s5Step1": "Daj sa pokrstiť ponorením do vody",
-    "s5Step2": "Čítaj Bibliu každý deň",
-    "s5Step3": "Modli sa k Bohu",
-    "s5Step4": "Nájdi si spoločenstvo veriacich",
-    "linkSvedkovia": "Svedkovia",
-    "linkSvedkoviaDesc": "Svedok je ten, kto mal osobnú skúsenosť a o nej vypovedá",
-    "linkDuhovyrod": "Dúhový rod",
-    "linkDuhovyrodDesc": "Či si homosexuál alebo heterosexuál, Ježiš ťa miluje rovnako!",
-    "linkKatolickaviera": "Katolícka viera",
-    "linkKatolickaVieraDesc": "Porovnanie katolíckych tradícií s Božím Slovom"
+    "s4ButtonPre": "Vytlačenú bezplatnú knihu si pýtaj u ",
+    "s4ButtonLink": "mňa",
+    "s4ButtonPost": "",
+    "s4ModalTitle": "Napíš mi",
+    "s5Pokrstenie": "Daj sa pokrstiť v mene Ježiša Krista na odpustenie hriechov, začni sa každodenne modliť vlastnými slovami, aby si udržiaval živý vzťah s Bohom a čítať Bibliu, aby si bol plný Jeho Slova a podľa Neho žil. A pravidelne navštevuj nejaké spoločenstvo, kde oslavujú len Boha Otca, Ježiša a Svätého Ducha.",
+    "s5Precon": "Prečo nestačí len formálne uveriť a ďalej to neriešiť? Pretože viera bez osobného vzťahu s Ježišom je len mŕtve náboženstvo a viera bez poslušnosti Božiemu Slovu je pokrytectvom. Takú falošnú vieru Boh neprijme a odsúdi. Mŕtva viera ťa nespasí!",
+    "s5PanomIntro": "Pánom ti je ten, koho poslúchaš.",
+    "s5PanomVerse": "Kto hovorí: Poznám Ho, ale nezachováva Jeho prikázania, je klamár a niet v ňom pravdy. Ak niekto miluje svet (žiadosť tela, žiadosť očí, pýchu života), nieto v ňom lásky k Otcovi.",
+    "s5PanomRef": "Prvý Jánov 2:4,15",
+    "s5PanomAudio": "Viac v tejto audio knihe",
+    "s5PanomAudioLink": "Ži s perspektívou večnosti",
+    "s5PanomAudioKap": "(5. kapitola).",
+    "s5OdkazKV": "Sú všetky cirkevné tradície podložené Božím Slovom? Viac na",
+    "s5OdkazSV": "Hlásajú svedkovia Jehovovi evanjelium, aké hlásali apoštoli? Viac na",
+    "s5OdkazDR": "Je emocionálne uspokojenie cesta k pravému šťastiu človeka? Viac na",
+    "s5Zaver": "Prajem ti, aby si uveril pravde, ktorou je Božie Slovo a získal tak späť postavenie, ktoré ti patrí."
   },
   "svedkovia": {
     "siteTitle": "Svedkovia",

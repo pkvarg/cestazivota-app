@@ -7,19 +7,34 @@
     "contact": "Contact",
     "language": "Language",
     "cookie": {
-      "message": "This website uses cookies for traffic analysis.",
+      "message": "This website uses cookies for anonymous traffic analysis.",
       "accept": "Accept",
       "decline": "Decline"
     },
     "footer": {
       "allRightsReserved": "All rights reserved",
-      "developed": "Developed"
+      "developed": "Developed",
+      "gdpr": "Privacy"
+    },
+    "gdprPage": {
+      "title": "Privacy policy",
+      "intro": "We take your privacy seriously. We collect only the minimum necessary data and never share it with third parties for marketing purposes.",
+      "cookiesTitle": "Cookies and analytics",
+      "cookiesBody": "We use Umami for anonymous traffic analytics. Umami is a self-hosted service that does not store IP addresses or any personal identifiers. Cookies and analytics load only after your consent in the cookie banner.",
+      "contactTitle": "Contact form",
+      "contactBody": "If you send us a message through the form in the book section, your email address is used solely for the reply. It is not stored in any database or forwarded to third parties.",
+      "rightsTitle": "Your rights",
+      "rightsBody": "You have the right to withdraw consent at any time, request deletion of your data, or ask what data we hold about you. Write to us via the contact form."
     },
     "contactForm": {
       "name": "Name",
-      "email": "E-mail",
-      "message": "Message",
+      "email": "Your e-mail",
+      "message": "Your message to me",
       "send": "Send",
+      "gdpr": "I agree with the ",
+      "gdprLink": "processing of personal data",
+      "gdprInfo1": "Your email address will not be stored in any database and will be used only to reply to your message.",
+      "gdprInfo2": "After sending your message, you will immediately receive a confirmation email, so please also check your spam folder.",
       "success": "Message sent successfully!",
       "error": "Something went wrong. Please try again."
     }
@@ -82,18 +97,21 @@
     "s3Text4i": "Amen.",
     "s4Title": "You can read more in this book",
     "s4Button": "Ask me for a printed free book",
-    "s5Title": "Have you been baptized?",
-    "s5Text1": "If you have believed in the Lord Jesus Christ, your sins are forgiven and you have eternal life. Now it is important to:",
-    "s5Step1": "Get baptized by immersion in water",
-    "s5Step2": "Read the Bible every day",
-    "s5Step3": "Pray to God",
-    "s5Step4": "Find a fellowship of believers",
-    "linkSvedkovia": "Witnesses",
-    "linkSvedkoviaDesc": "A witness is one who had a personal experience and testifies about it",
-    "linkDuhovyrod": "Rainbow Generation",
-    "linkDuhovyrodDesc": "Whether you are homosexual or heterosexual, Jesus loves you just the same!",
-    "linkKatolickaviera": "Catholic Faith",
-    "linkKatolickaVieraDesc": "Comparing Catholic traditions with God's Word"
+    "s4ButtonPre": "Ask ",
+    "s4ButtonLink": "me",
+    "s4ButtonPost": " for a printed free book",
+    "s5Pokrstenie": "Be baptized in the name of Jesus Christ for the remission of sins, begin praying daily in your own words to maintain a living relationship with God, and read the Bible to be filled with His Word and live according to it. And regularly attend a fellowship that worships only God the Father, Jesus and the Holy Spirit.",
+    "s5Precon": "Why is it not enough to just formally believe and not deal with it further? Because faith without a personal relationship with Jesus is only dead religion, and faith without obedience to God's Word is hypocrisy. God will not accept such false faith and will condemn it. A dead faith will not save you!",
+    "s5PanomIntro": "The one you obey is your Lord.",
+    "s5PanomVerse": "He who says: I know Him, but does not keep His commandments, is a liar and the truth is not in him. If anyone loves the world (the lust of the flesh, the lust of the eyes, the pride of life), the love of the Father is not in him.",
+    "s5PanomRef": "1 John 2:4,15",
+    "s5PanomAudio": "More in this audiobook",
+    "s5PanomAudioLink": "Live with the perspective of eternity",
+    "s5PanomAudioKap": "(chapter 5).",
+    "s5OdkazKV": "Are all church traditions supported by God's Word? More at",
+    "s5OdkazSV": "Do Jehovah's Witnesses preach the gospel as the apostles preached? More at",
+    "s5OdkazDR": "Is emotional satisfaction the path to man's true happiness? More at",
+    "s5Zaver": "I wish that you would believe the truth, which is God's Word, and thus regain the position that belongs to you."
   },
   "svedkovia": {
     "siteTitle": "Witnesses",
