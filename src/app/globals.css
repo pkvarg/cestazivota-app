@@ -263,15 +263,16 @@ body {
 
 /* === KATOLÍCKA VIERA sub-page heroes === */
 .hero-kv-omsa {
-  background-image: linear-gradient(to bottom, #f5f5f280, #f8f8f8b5, #ffffff),
+  background-image: linear-gradient(to bottom, rgba(34, 35, 32, 0) 0%, rgba(34, 35, 32, 0.35) 50%, #222320 92%, #222320 100%),
     url('/images/katolickaviera/omsa.webp');
+  background-color: #222320;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
 
 .hero-kv-spoved {
-  background-image: linear-gradient(to top, #222320, #87848479, #1c1a1a73),
+  background-image: linear-gradient(to bottom, rgba(34, 35, 32, 0) 0%, rgba(34, 35, 32, 0.35) 50%, #222320 92%, #222320 100%),
     url('/images/katolickaviera/spoved.webp');
   background-size: cover;
   background-repeat: no-repeat;
@@ -279,7 +280,7 @@ body {
 }
 
 .hero-kv-manzelstvo {
-  background-image: linear-gradient(to bottom, #f5f5f2bb, #f8f8f8ad, #ffffff),
+  background-image: linear-gradient(to bottom, rgba(34, 35, 32, 0) 0%, rgba(34, 35, 32, 0.35) 50%, #222320 92%, #222320 100%),
     url('/images/katolickaviera/manzelstvo.webp');
   background-size: cover;
   background-repeat: no-repeat;
@@ -287,7 +288,7 @@ body {
 }
 
 .hero-kv-papez {
-  background-image: linear-gradient(to bottom, #000000, #e8d6d646, #ffffff),
+  background-image: linear-gradient(to bottom, rgba(34, 35, 32, 0) 0%, rgba(34, 35, 32, 0.35) 50%, #222320 92%, #222320 100%),
     url('/images/katolickaviera/papez.webp');
   background-size: cover;
   background-repeat: no-repeat;
@@ -295,7 +296,7 @@ body {
 }
 
 .hero-kv-knaz {
-  background-image: linear-gradient(to bottom, #1f1f1e, #f8f8f883, #ffffff),
+  background-image: linear-gradient(to bottom, rgba(34, 35, 32, 0) 0%, rgba(34, 35, 32, 0.35) 50%, #222320 92%, #222320 100%),
     url('/images/katolickaviera/knaz.webp');
   background-size: cover;
   background-repeat: no-repeat;
@@ -303,7 +304,7 @@ body {
 }
 
 .hero-kv-klastor {
-  background-image: linear-gradient(to top, #151715, #87848479, #1c1a1a7c),
+  background-image: linear-gradient(to bottom, rgba(34, 35, 32, 0) 0%, rgba(34, 35, 32, 0.35) 50%, #222320 92%, #222320 100%),
     url('/images/katolickaviera/klastor.webp');
   background-size: cover;
   background-repeat: no-repeat;
@@ -311,7 +312,7 @@ body {
 }
 
 .hero-kv-maria {
-  background-image: linear-gradient(to bottom, #5f5c5cbd, rgba(246, 244, 244, 0.511), #ffffff),
+  background-image: linear-gradient(to bottom, rgba(34, 35, 32, 0) 0%, rgba(34, 35, 32, 0.35) 50%, #222320 92%, #222320 100%),
     url('/images/katolickaviera/maria.webp');
   background-size: cover;
   background-repeat: no-repeat;
@@ -319,7 +320,7 @@ body {
 }
 
 .hero-kv-hriech {
-  background-image: linear-gradient(to top, #222320, #8784843c, #1c1a1aeb),
+  background-image: linear-gradient(to bottom, rgba(34, 35, 32, 0) 0%, rgba(34, 35, 32, 0.35) 50%, #222320 92%, #222320 100%),
     url('/images/katolickaviera/hriech.webp');
   background-size: cover;
   background-repeat: no-repeat;
@@ -327,7 +328,7 @@ body {
 }
 
 .hero-kv-spasenie {
-  background-image: linear-gradient(to top, #222320, #8784843c, #1c1a1aeb),
+  background-image: linear-gradient(to bottom, rgba(34, 35, 32, 0) 0%, rgba(34, 35, 32, 0.35) 50%, #222320 92%, #222320 100%),
     url('/images/katolickaviera/spasenie.webp');
   background-size: cover;
   background-repeat: no-repeat;
@@ -335,11 +336,26 @@ body {
 }
 
 .hero-kv-biblia {
-  background-image: linear-gradient(to bottom, #f3eeee69, #9b969656, #ffffff),
+  background-image: linear-gradient(to bottom, rgba(34, 35, 32, 0) 0%, rgba(34, 35, 32, 0.35) 50%, #222320 92%, #222320 100%),
     url('/images/katolickaviera/bible.webp');
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+/* Shared solid base to eliminate seam between hero and content */
+.hero-kv-omsa,
+.hero-kv-spoved,
+.hero-kv-manzelstvo,
+.hero-kv-papez,
+.hero-kv-knaz,
+.hero-kv-klastor,
+.hero-kv-maria,
+.hero-kv-hriech,
+.hero-kv-spasenie,
+.hero-kv-biblia {
+  background-color: #222320;
+  margin-bottom: -1px;
 }
 
 /* Katolícka viera uses Lora as base font */
