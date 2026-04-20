@@ -32,7 +32,7 @@ function SubNav() {
   ];
 
   return (
-    <nav className="bg-kv-dark text-white overflow-x-auto">
+    <nav className="hidden lg:block bg-kv-dark text-white overflow-x-auto">
       <div className="max-w-7xl mx-auto px-4 flex gap-1">
         {links.map((link) => (
           <Link

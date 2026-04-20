@@ -23,6 +23,7 @@
       "cookiesBody": "We use Umami for anonymous traffic analytics. Umami is a self-hosted service that does not store IP addresses or any personal identifiers. Cookies and analytics load only after your consent in the cookie banner.",
       "contactTitle": "Contact form",
       "contactBody": "If you send us a message through the form in the book section, your email address is used solely for the reply. It is not stored in any database or forwarded to third parties.",
+      "contactLink": "Go to contact form →",
       "rightsTitle": "Your rights",
       "rightsBody": "You have the right to withdraw consent at any time, request deletion of your data, or ask what data we hold about you. Write to us via the contact form."
     },

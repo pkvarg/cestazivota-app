@@ -8,6 +8,8 @@ import LanguageSwitcher from './LanguageSwitcher';
 
 export default function Header() {
   const t = useTranslations('nav');
+  const tSv = useTranslations('svedkovia.nav');
+  const tKv = useTranslations('katolickaviera.nav');
   const pathname = usePathname();
   const [menuOpen, setMenuOpen] = useState(false);
 
@@ -22,6 +24,31 @@ export default function Header() {
     if (href === '/') return pathname === '/';
     return pathname.startsWith(href);
   };
+
+  let subNavItems: { href: string; label: string }[] = [];
+  if (pathname.startsWith('/svedkovia')) {
+    subNavItems = [
+      { href: '/svedkovia', label: tSv('home') },
+      { href: '/svedkovia/co-hlasali-apostoli', label: tSv('apostoli') },
+      { href: '/svedkovia/je-jezis-boh', label: tSv('jezis') },
+      { href: '/svedkovia/koho-panom-je-jezis', label: tSv('pan') },
+      { href: '/svedkovia/vecera-panova', label: tSv('vecera') },
+    ];
+  } else if (pathname.startsWith('/katolickaviera')) {
+    subNavItems = [
+      { href: '/katolickaviera', label: tKv('home') },
+      { href: '/katolickaviera/omsa', label: tKv('omsa') },
+      { href: '/katolickaviera/spoved', label: tKv('spoved') },
+      { href: '/katolickaviera/manzelstvo', label: tKv('manzelstvo') },
+      { href: '/katolickaviera/papezsky-urad', label: tKv('papezsky') },
+      { href: '/katolickaviera/knazsky-urad', label: tKv('knazsky') },
+      { href: '/katolickaviera/klastorny-zivot', label: tKv('klastorny') },
+      { href: '/katolickaviera/maria', label: tKv('maria') },
+      { href: '/katolickaviera/hriech', label: tKv('hriech') },
+      { href: '/katolickaviera/spasenie', label: tKv('spasenie') },
+      { href: '/katolickaviera/biblia', label: tKv('biblia') },
+    ];
+  }
 
   return (
     <header className="bg-gray-900/95 backdrop-blur-sm text-white sticky top-0 z-50">
@@ -49,8 +76,7 @@ export default function Header() {
         </nav>
 
         {/* Mobile menu button */}
-        <div className="lg:hidden flex items-center gap-3">
-          <LanguageSwitcher />
+        <div className="lg:hidden flex items-center">
           <button
             onClick={() => setMenuOpen(!menuOpen)}
             className="text-2xl"
@@ -76,6 +102,27 @@ export default function Header() {
               {item.label}
             </Link>
           ))}
+
+          {subNavItems.length > 0 && (
+            <div className="pl-4 mt-1 border-l-2 border-gray-800">
+              {subNavItems.map((item) => (
+                <Link
+                  key={item.href}
+                  href={item.href}
+                  onClick={() => setMenuOpen(false)}
+                  className={`block py-2 text-sm border-b border-gray-800/60 ${
+                    pathname === item.href ? 'text-yellow-400' : 'text-gray-400'
+                  }`}
+                >
+                  {item.label}
+                </Link>
+              ))}
+            </div>
+          )}
+
+          <div className="mt-4 flex justify-center">
+            <LanguageSwitcher />
+          </div>
         </nav>
       )}
     </header>

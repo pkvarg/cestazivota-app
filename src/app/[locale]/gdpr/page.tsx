@@ -1,4 +1,5 @@
 import { getTranslations } from 'next-intl/server';
+import { Link } from '@/i18n/navigation';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -27,7 +28,15 @@ export default async function GdprPage({ params }: { params: Promise<{ locale: s
         <p className="mb-8">{t('cookiesBody')}</p>
 
         <h2 className="text-[24px] font-semibold mb-3 text-yellow-300">{t('contactTitle')}</h2>
-        <p className="mb-8">{t('contactBody')}</p>
+        <p className="mb-3">{t('contactBody')}</p>
+        <p className="mb-8">
+          <Link
+            href={{ pathname: '/', hash: 'contact' }}
+            className="underline hover:text-yellow-300 transition-colors"
+          >
+            {t('contactLink')}
+          </Link>
+        </p>
 
         <h2 className="text-[24px] font-semibold mb-3 text-yellow-300">{t('rightsTitle')}</h2>
         <p>{t('rightsBody')}</p>

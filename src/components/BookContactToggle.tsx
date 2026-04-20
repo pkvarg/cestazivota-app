@@ -1,7 +1,7 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
-import { useState, FormEvent } from 'react';
+import { useState, useEffect, useRef, FormEvent } from 'react';
 
 export default function BookContactToggle() {
   const t = useTranslations('cestaZivota');
@@ -9,6 +9,19 @@ export default function BookContactToggle() {
   const [open, setOpen] = useState(false);
   const [gdprInfoOpen, setGdprInfoOpen] = useState(false);
   const [status, setStatus] = useState<'idle' | 'sending' | 'success' | 'error'>('idle');
+  const anchorRef = useRef<HTMLHeadingElement>(null);
+
+  useEffect(() => {
+    if (typeof window === 'undefined') return;
+    const hash = window.location.hash;
+    const params = new URLSearchParams(window.location.search);
+    if (hash === '#contact' || params.get('contact') === '1') {
+      setOpen(true);
+      setTimeout(() => {
+        anchorRef.current?.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      }, 100);
+    }
+  }, []);
 
   async function handleSubmit(e: FormEvent<HTMLFormElement>) {
     e.preventDefault();
@@ -40,7 +53,7 @@ export default function BookContactToggle() {
 
   return (
     <>
-      <h3 className="text-[22.5px] font-normal mt-10 text-center">
+      <h3 id="contact" ref={anchorRef} className="text-[22.5px] font-normal mt-10 text-center scroll-mt-24">
         {t('s4ButtonPre')}
         <button
           type="button"

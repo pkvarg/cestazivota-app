@@ -23,6 +23,7 @@
       "cookiesBody": "Používame nástroj Umami na anonymnú analýzu návštevnosti. Umami je self-hosted služba, ktorá neukladá IP adresy ani žiadne osobné identifikátory. Cookies a analytiku načítavame až po tvojom súhlase v cookie lište.",
       "contactTitle": "Kontaktný formulár",
       "contactBody": "Ak nám pošleš správu cez formulár v sekcii knihy, tvoja e-mailová adresa sa použije výhradne na odpoveď. Nie je ukladaná v žiadnej databáze ani preposielaná tretím stranám.",
+      "contactLink": "Prejsť na kontaktný formulár →",
       "rightsTitle": "Tvoje práva",
       "rightsBody": "Máš právo kedykoľvek svoj súhlas odvolať, požiadať o výmaz údajov alebo sa dotazovať, aké údaje o tebe spracúvame. Napíš nám cez kontaktný formulár."
     },
