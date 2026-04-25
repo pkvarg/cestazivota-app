@@ -10,32 +10,62 @@ export default function Footer() {
   const tKv = useTranslations('katolickaviera.nav');
   const pathname = usePathname();
 
-  let subNavItems: { href: string; label: string }[] = [];
-  let subNavLabel = '';
-  if (pathname.startsWith('/svedkovia')) {
-    subNavLabel = nav('svedkovia');
-    subNavItems = [
-      { href: '/svedkovia', label: tSv('home') },
-      { href: '/svedkovia/co-hlasali-apostoli', label: tSv('apostoli') },
-      { href: '/svedkovia/je-jezis-boh', label: tSv('jezis') },
-      { href: '/svedkovia/koho-panom-je-jezis', label: tSv('pan') },
-      { href: '/svedkovia/vecera-panova', label: tSv('vecera') },
-    ];
-  } else if (pathname.startsWith('/katolickaviera')) {
-    subNavLabel = nav('katolickaviera');
-    subNavItems = [
-      { href: '/katolickaviera', label: tKv('home') },
-      { href: '/katolickaviera/omsa', label: tKv('omsa') },
-      { href: '/katolickaviera/spoved', label: tKv('spoved') },
-      { href: '/katolickaviera/manzelstvo', label: tKv('manzelstvo') },
-      { href: '/katolickaviera/papezsky-urad', label: tKv('papezsky') },
-      { href: '/katolickaviera/knazsky-urad', label: tKv('knazsky') },
-      { href: '/katolickaviera/klastorny-zivot', label: tKv('klastorny') },
-      { href: '/katolickaviera/maria', label: tKv('maria') },
-      { href: '/katolickaviera/hriech', label: tKv('hriech') },
-      { href: '/katolickaviera/spasenie', label: tKv('spasenie') },
-      { href: '/katolickaviera/biblia', label: tKv('biblia') },
-    ];
+  type Href =
+    | '/'
+    | '/svedkovia'
+    | '/svedkovia/co-hlasali-apostoli'
+    | '/svedkovia/je-jezis-boh'
+    | '/svedkovia/koho-panom-je-jezis'
+    | '/svedkovia/vecera-panova'
+    | '/duhovyrod'
+    | '/katolickaviera'
+    | '/katolickaviera/omsa'
+    | '/katolickaviera/spoved'
+    | '/katolickaviera/manzelstvo'
+    | '/katolickaviera/papezsky-urad'
+    | '/katolickaviera/knazsky-urad'
+    | '/katolickaviera/klastorny-zivot'
+    | '/katolickaviera/maria'
+    | '/katolickaviera/hriech'
+    | '/katolickaviera/spasenie'
+    | '/katolickaviera/biblia'
+    | '/gdpr';
+
+  const svedkoviaSubs: { href: Href; label: string }[] = [
+    { href: '/svedkovia/co-hlasali-apostoli', label: tSv('apostoli') },
+    { href: '/svedkovia/je-jezis-boh', label: tSv('jezis') },
+    { href: '/svedkovia/koho-panom-je-jezis', label: tSv('pan') },
+    { href: '/svedkovia/vecera-panova', label: tSv('vecera') },
+  ];
+  const kvSubs: { href: Href; label: string }[] = [
+    { href: '/katolickaviera/omsa', label: tKv('omsa') },
+    { href: '/katolickaviera/spoved', label: tKv('spoved') },
+    { href: '/katolickaviera/manzelstvo', label: tKv('manzelstvo') },
+    { href: '/katolickaviera/papezsky-urad', label: tKv('papezsky') },
+    { href: '/katolickaviera/knazsky-urad', label: tKv('knazsky') },
+    { href: '/katolickaviera/klastorny-zivot', label: tKv('klastorny') },
+    { href: '/katolickaviera/maria', label: tKv('maria') },
+    { href: '/katolickaviera/hriech', label: tKv('hriech') },
+    { href: '/katolickaviera/spasenie', label: tKv('spasenie') },
+    { href: '/katolickaviera/biblia', label: tKv('biblia') },
+  ];
+
+  // Show the matching parent's sub-tree only when the user is currently inside it.
+  const showSvedkoviaSubs = pathname.startsWith('/svedkovia');
+  const showKvSubs = pathname.startsWith('/katolickaviera');
+
+  const navItems: { href: Href; label: string }[] = [
+    { href: '/', label: nav('cestaZivota') },
+    { href: '/svedkovia', label: nav('svedkovia') },
+    { href: '/duhovyrod', label: nav('duhovyrod') },
+    { href: '/katolickaviera', label: nav('katolickaviera') },
+    { href: '/gdpr', label: t('gdpr') },
+  ];
+
+  function subsFor(href: Href) {
+    if (href === '/svedkovia' && showSvedkoviaSubs) return svedkoviaSubs;
+    if (href === '/katolickaviera' && showKvSubs) return kvSubs;
+    return null;
   }
 
   return (
@@ -52,42 +82,34 @@ export default function Footer() {
           {/* Links */}
           <div>
             <nav className="flex flex-col gap-2 text-sm">
-              <Link href="/" className="hover:text-white transition-colors">
-                {nav('cestaZivota')}
-              </Link>
-              <Link href="/svedkovia" className="hover:text-white transition-colors">
-                {nav('svedkovia')}
-              </Link>
-              <Link href="/duhovyrod" className="hover:text-white transition-colors">
-                {nav('duhovyrod')}
-              </Link>
-              <Link href="/katolickaviera" className="hover:text-white transition-colors">
-                {nav('katolickaviera')}
-              </Link>
-              <Link href="/gdpr" className="hover:text-white transition-colors">
-                {t('gdpr')}
-              </Link>
+              {navItems.map((item) => {
+                const subs = subsFor(item.href);
+                return (
+                  <div key={item.href} className="flex flex-col">
+                    <Link href={item.href} className="hover:text-white transition-colors">
+                      {item.label}
+                    </Link>
+                    {subs && (
+                      <div className="mt-1 ml-3 pl-2 border-l border-gray-700 flex flex-col gap-1">
+                        {subs.map((s) => (
+                          <Link
+                            key={s.href}
+                            href={s.href}
+                            className={`text-xs transition-colors ${
+                              pathname === s.href
+                                ? 'text-yellow-400'
+                                : 'text-gray-500 hover:text-white'
+                            }`}
+                          >
+                            {s.label}
+                          </Link>
+                        ))}
+                      </div>
+                    )}
+                  </div>
+                );
+              })}
             </nav>
-
-            {/* Sub-nav links for current section (visible on mobile) */}
-            {subNavItems.length > 0 && (
-              <nav className="lg:hidden mt-4 pl-3 border-l-2 border-gray-800 flex flex-col gap-1.5 text-xs">
-                <span className="text-gray-500 uppercase tracking-wide text-[10px] mb-1">
-                  {subNavLabel}
-                </span>
-                {subNavItems.map((item) => (
-                  <Link
-                    key={item.href}
-                    href={item.href}
-                    className={`hover:text-white transition-colors ${
-                      pathname === item.href ? 'text-yellow-400' : ''
-                    }`}
-                  >
-                    {item.label}
-                  </Link>
-                ))}
-              </nav>
-            )}
           </div>
 
           {/* Credits */}
