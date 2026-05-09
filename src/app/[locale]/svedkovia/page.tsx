@@ -28,16 +28,16 @@ export default async function SvedkoviaHome() {
         </div>
       </section>
 
-      <section className="bg-white py-20 px-4 verse-dark verse-sv text-[22.5px] text-[#4a2600]">
-        <div className="mx-4 text-black leading-[1.51]">
-          <h2 className="text-[35px] font-normal mb-6 text-center text-black leading-[1.5]">{t.homeTitle1}</h2>
+      <section className="bg-white py-20 px-4 verse-dark verse-sv text-[14px] lg:text-[18px] text-[#4a2600]">
+        <div className="mx-4 text-black leading-[18px] lg:leading-[28px]">
+          <h2 className="text-[20px] lg:text-[28px] font-normal mb-6 text-center text-black leading-[1.3] lg:leading-[1.5]">{t.homeTitle1}</h2>
           <p className="mb-4">{t.homeText1}</p>
           <Verse text={t.homeVerse1} reference={t.homeRef1} />
           <Verse text={t.homeVerse2} reference={t.homeRef2} />
           <p className="my-4">{t.homeText2}</p>
           <Verse text={t.homeVerse3} reference={t.homeRef3} />
 
-          <h2 className="text-[35px] font-normal mt-16 mb-6 text-center text-black leading-[1.5]">{t.homeTitle2}</h2>
+          <h2 className="text-[20px] lg:text-[28px] font-normal mt-16 mb-6 text-center text-black leading-[1.3] lg:leading-[1.5]">{t.homeTitle2}</h2>
           <p className="mb-4">{t.homeText3}</p>
           <Verse text={t.homeVerse4} reference={t.homeRef4} />
           <p className="my-4">{t.homeText4}</p>
@@ -53,7 +53,7 @@ export default async function SvedkoviaHome() {
           <Verse text={t.homeVerse8} reference={t.homeRef8} />
           <p className="my-4">{t.homeText10}</p>
 
-          <h2 className="text-[35px] font-normal mt-16 mb-6 text-center text-black leading-[1.5]">{t.homeTitle3}</h2>
+          <h2 className="text-[20px] lg:text-[28px] font-normal mt-16 mb-6 text-center text-black leading-[1.3] lg:leading-[1.5]">{t.homeTitle3}</h2>
           <p className="mb-4">{t.homeText11}</p>
           <Verse text={t.homeVerse9} reference={t.homeRef9} />
           <Verse text={t.homeVerse10} reference={t.homeRef10} />
@@ -72,13 +72,13 @@ export default async function SvedkoviaHome() {
           <p className="my-4">{t.homeText17}</p>
           <Verse text={t.homeVerse18} reference={t.homeRef18} />
 
-          <h2 className="text-[35px] font-normal mt-16 mb-6 text-center text-black leading-[1.5]">{t.homeTitle4}</h2>
+          <h2 className="text-[20px] lg:text-[28px] font-normal mt-16 mb-6 text-center text-black leading-[1.3] lg:leading-[1.5]">{t.homeTitle4}</h2>
           <p className="mb-4">{t.homeText18}</p>
           <Verse text={t.homeVerse19} reference={t.homeRef19} />
           <p className="my-4">{t.homeText19}</p>
           <p className="my-4">{t.homeText20}</p>
 
-          <h2 className="text-[35px] font-normal mt-16 mb-6 text-center text-black leading-[1.5]">{t.homeTitle5}</h2>
+          <h2 className="text-[20px] lg:text-[28px] font-normal mt-16 mb-6 text-center text-black leading-[1.3] lg:leading-[1.5]">{t.homeTitle5}</h2>
           <Verse text={t.homeVerse20} reference={t.homeRef20} />
           <p className="my-4">{t.homeText21}</p>
           <Verse text={t.homeVerse21} reference={t.homeRef21} />

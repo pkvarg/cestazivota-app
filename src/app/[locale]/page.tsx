@@ -44,7 +44,7 @@ export default async function CestaZivotaHome() {
     <div>
       {/* Section 1 - Hero */}
       <section className="hero-gradient-cz min-h-screen flex items-center justify-center px-[5%] py-20">
-        <div className="text-[16px] lg:text-[22.5px] leading-[20px] lg:leading-[34px] verse-sv">
+        <div className="text-[16px] lg:text-[22.5px] leading-[20px] lg:leading-[34px] verse-cz">
           <h1 className="textgradient-cz text-[30px] lg:text-[40px] font-semibold mb-8 leading-[30px] lg:leading-[40px] text-center">
             {t('heroTitle')}
           </h1>
@@ -95,13 +95,13 @@ export default async function CestaZivotaHome() {
         </div>
       </section>
 
-      {/* Section 3 - Gospel + Prayer */}
+      {/* Section 3 - Gospel + Comic + Prayer */}
       <section className="section-cz-purple py-20 px-[5%]">
-        <div className="text-[16px] lg:text-[22.5px] leading-[20px] lg:leading-[34px] verse-sv">
+        <div className="text-[16px] lg:text-[22.5px] leading-[20px] lg:leading-[34px] verse-cz">
           <div className="mb-4 text-justify">
             {t('s3Text1')}
             <span className="text-yellow-300 font-medium">{t('s3Text1add')}</span>
-            <span className="text-xs text-gray-400"> {t('s3Text1addRef')}</span>{' '}
+            <cite className="verse-ref">{t('s3Text1addRef')}</cite>{' '}
             <Verse text={t('s3Verse1')} reference={t('s3Ref1')} />{' '}
             <Verse text={t('s3Verse2')} reference={t('s3Ref2')} />
           </div>
@@ -115,9 +115,11 @@ export default async function CestaZivotaHome() {
             <Verse text={t('s3Verse4')} reference={t('s3Ref4')} />{' '}
             {t('s3Ref4addText')}
             <span className="verse">{t('s3Ref4addVerse')}</span>
-            <span className="text-xs text-gray-400"> {t('s3Ref4addRef')}</span>{' '}
+            <cite className="verse-ref">{t('s3Ref4addRef')}</cite>{' '}
             <Verse text={t('s3Verse5')} reference={t('s3Ref5')} />
           </div>
+
+          <ComicSlider locale={locale} />
 
           <p className="text-yellow-300 font-semibold my-10 text-center">
             {t('s3Text3')}
@@ -145,20 +147,13 @@ export default async function CestaZivotaHome() {
         </div>
       </section>
 
-      {/* Section 4 - Comic + Book slider */}
+      {/* Section 5 - Book + Closing paragraphs */}
       <section className="section-cz-purple-dark py-20 px-[5%]">
-        <div className="text-center text-[16px] lg:text-[22.5px] leading-[20px] lg:leading-[34px]">
-          <ComicSlider locale={locale} />
-          <div className="mt-20">
+        <div className="text-[16px] lg:text-[22.5px] leading-[20px] lg:leading-[34px] verse-cz max-w-5xl mx-auto">
+          <p className="mb-6 text-justify">{t('s5Pokrstenie')}</p>
+          <div className="my-12">
             <BookSlider basePath={bookPath} totalPages={bookPages} />
           </div>
-        </div>
-      </section>
-
-      {/* Section 5 - Closing paragraphs */}
-      <section className="section-cz-purple-dark py-20 px-[5%]">
-        <div className="text-[16px] lg:text-[22.5px] leading-[20px] lg:leading-[34px] verse-sv max-w-5xl mx-auto">
-          <p className="mb-6 text-justify">{t('s5Pokrstenie')}</p>
           <p className="mb-6 text-justify">{t('s5Precon')}</p>
           <p className="mb-6 text-justify">
             {t('s5PanomIntro')}{' '}

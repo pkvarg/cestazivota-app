@@ -23,6 +23,21 @@ body {
   @apply text-sm text-yellow-300/80 not-italic;
 }
 
+/* Cesta Života home — verse refs as subdued grey, in parentheses, spaced from the citation */
+.verse-cz .verse-ref {
+  @apply text-xs not-italic font-normal;
+  color: rgb(156 163 175 / 0.85);
+  margin-left: 0.4rem;
+}
+
+.verse-cz .verse-ref::before {
+  content: '(';
+}
+
+.verse-cz .verse-ref::after {
+  content: ')';
+}
+
 /* Section transitions */
 .section-fade-in {
   animation: fadeIn 0.6s ease-in;
