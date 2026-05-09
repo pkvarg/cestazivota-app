@@ -21,23 +21,8 @@
       "intro": "We take your privacy seriously. We collect only the minimum necessary data and never share it with third parties for marketing purposes.",
       "cookiesTitle": "Cookies and analytics",
       "cookiesBody": "We use Umami for anonymous traffic analytics. Umami is a self-hosted service that does not store IP addresses or any personal identifiers. Cookies and analytics load only after your consent in the cookie banner.",
-      "contactTitle": "Contact form",
-      "contactBody": "If you send us a message through the form in the book section, your email address is used solely for the reply. It is not stored in any database or forwarded to third parties.",
-      "contactLink": "Go to contact form →",
-      "rightsTitle": "Your rights",
-      "rightsBody": "You have the right to withdraw consent at any time, request deletion of your data, or ask what data we hold about you. Write to us via the contact form."
-    },
-    "contactForm": {
-      "name": "Name",
-      "email": "Your e-mail",
-      "message": "Your message to me",
-      "send": "Send",
-      "gdpr": "I agree with the ",
-      "gdprLink": "processing of personal data",
-      "gdprInfo1": "Your email address will not be stored in any database and will be used only to reply to your message.",
-      "gdprInfo2": "After sending your message, you will immediately receive a confirmation email, so please also check your spam folder.",
-      "success": "Message sent successfully!",
-      "error": "Something went wrong. Please try again."
+      "rightsTitle": "Withdrawing consent",
+      "rightsBody": "You can withdraw your consent for analytics cookies at any time via the cookie banner or by clearing cookies in your browser."
     }
   },
   "nav": {
@@ -65,7 +50,8 @@
     "heroRef6": "Hebrews 9:22",
     "heroVerse7": "For God so loved the world, that he gave his only begotten Son, that whosoever believeth in him should not perish, but have everlasting life.",
     "heroRef7": "John 3:16",
-    "s2Title": "Testimony of my friend Jimmy",
+    "s2Title": "Supernatural experience",
+    "s2More": "More at",
     "s3Text1": "If you choose to ignore His sacrifice and the chance of salvation, you will be condemned,",
     "s3Text1add": " because God opposes the proud.",
     "s3Text1addRef": "1 Peter 5:5",
@@ -96,11 +82,6 @@
     "s3Text4g": "Jesus, I confess you as my Lord and Savior.",
     "s3Text4h": "Please change my heart and shape my character.",
     "s3Text4i": "Amen.",
-    "s4Title": "You can read more in this book",
-    "s4Button": "Ask me for a printed free book",
-    "s4ButtonPre": "Ask ",
-    "s4ButtonLink": "me",
-    "s4ButtonPost": " for a printed free book",
     "s5Pokrstenie": "Be baptized in the name of Jesus Christ for the remission of sins, begin praying daily in your own words to maintain a living relationship with God, and read the Bible to be filled with His Word and live according to it. And regularly attend a fellowship that worships only God the Father, Jesus and the Holy Spirit.",
     "s5Precon": "Why is it not enough to just formally believe and not deal with it further? Because faith without a personal relationship with Jesus is only dead religion, and faith without obedience to God's Word is hypocrisy. God will not accept such false faith and will condemn it. A dead faith will not save you!",
     "s5PanomIntro": "The one you obey is your Lord.",

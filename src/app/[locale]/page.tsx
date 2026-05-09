@@ -2,7 +2,7 @@ import { getTranslations, getLocale } from 'next-intl/server';
 import Verse from '@/components/Verse';
 import YouTube from '@/components/YouTube';
 import BookSlider from '@/components/BookSlider';
-import BookContactToggle from '@/components/BookContactToggle';
+import ComicSlider from '@/components/ComicSlider';
 import { Link } from '@/i18n/navigation';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
@@ -44,8 +44,8 @@ export default async function CestaZivotaHome() {
     <div>
       {/* Section 1 - Hero */}
       <section className="hero-gradient-cz min-h-screen flex items-center justify-center px-[5%] py-20">
-        <div className="text-[22.5px] leading-[34px] verse-sv">
-          <h1 className="textgradient-cz text-[40px] font-semibold mb-8 leading-[40px] text-center">
+        <div className="text-[16px] lg:text-[22.5px] leading-[20px] lg:leading-[34px] verse-sv">
+          <h1 className="textgradient-cz text-[30px] lg:text-[40px] font-semibold mb-8 leading-[30px] lg:leading-[40px] text-center">
             {t('heroTitle')}
           </h1>
 
@@ -55,7 +55,7 @@ export default async function CestaZivotaHome() {
             <span className="text-yellow-300 font-medium">{t('heroText2')}</span>
           </div>
 
-          <h2 className="text-[30px] font-normal mt-12 mb-4 leading-[40px] text-center">{t('heroText3')}</h2>
+          <h2 className="text-[22.5px] lg:text-[30px] font-normal mt-12 mb-4 leading-[30px] lg:leading-[40px] text-center">{t('heroText3')}</h2>
           <div className="my-6 text-justify">
             <Verse text={t('heroVerse3')} reference={t('heroRef3')} />
           </div>
@@ -76,17 +76,28 @@ export default async function CestaZivotaHome() {
 
       {/* Section 2 - Video testimony */}
       <section className="section-cz-dark py-20 px-[5%]">
-        <div className="text-center text-[22.5px] leading-[34px]">
-          <h3 className="text-[30px] font-normal mb-10 leading-[40px]">
+        <div className="text-center text-[16px] lg:text-[22.5px] leading-[20px] lg:leading-[34px]">
+          <h3 className="text-[22.5px] lg:text-[30px] font-normal mb-10 leading-[30px] lg:leading-[40px]">
             {t('s2Title')}
           </h3>
           <YouTube videoId="5CWjZWyBNjc" title={t('s2Title')} />
+          <p className="mt-6">
+            {t('s2More')}{' '}
+            <a
+              className="underline"
+              href="https://fireproduction.sk"
+              target="_blank"
+              rel="noreferrer"
+            >
+              fireproduction.sk
+            </a>
+          </p>
         </div>
       </section>
 
       {/* Section 3 - Gospel + Prayer */}
       <section className="section-cz-purple py-20 px-[5%]">
-        <div className="text-[22.5px] leading-[34px] verse-sv">
+        <div className="text-[16px] lg:text-[22.5px] leading-[20px] lg:leading-[34px] verse-sv">
           <div className="mb-4 text-justify">
             {t('s3Text1')}
             <span className="text-yellow-300 font-medium">{t('s3Text1add')}</span>
@@ -95,7 +106,7 @@ export default async function CestaZivotaHome() {
             <Verse text={t('s3Verse2')} reference={t('s3Ref2')} />
           </div>
 
-          <h2 className="text-[30px] font-normal text-yellow-400 my-10 leading-[40px] text-center">
+          <h2 className="text-[22.5px] lg:text-[30px] font-normal text-yellow-400 my-10 leading-[30px] lg:leading-[40px] text-center">
             {t('s3Text2')}
           </h2>
 
@@ -134,20 +145,19 @@ export default async function CestaZivotaHome() {
         </div>
       </section>
 
-      {/* Section 4 - Book slider */}
+      {/* Section 4 - Comic + Book slider */}
       <section className="section-cz-purple-dark py-20 px-[5%]">
-        <div className="text-center text-[22.5px] leading-[34px]">
-          <h3 className="text-[25px] font-normal mb-10 leading-[37.5px]">
-            {t('s4Title')}
-          </h3>
-          <BookSlider basePath={bookPath} totalPages={bookPages} />
-          <BookContactToggle />
+        <div className="text-center text-[16px] lg:text-[22.5px] leading-[20px] lg:leading-[34px]">
+          <ComicSlider locale={locale} />
+          <div className="mt-20">
+            <BookSlider basePath={bookPath} totalPages={bookPages} />
+          </div>
         </div>
       </section>
 
       {/* Section 5 - Closing paragraphs */}
       <section className="section-cz-purple-dark py-20 px-[5%]">
-        <div className="text-[22.5px] leading-[34px] verse-sv max-w-5xl mx-auto">
+        <div className="text-[16px] lg:text-[22.5px] leading-[20px] lg:leading-[34px] verse-sv max-w-5xl mx-auto">
           <p className="mb-6 text-justify">{t('s5Pokrstenie')}</p>
           <p className="mb-6 text-justify">{t('s5Precon')}</p>
           <p className="mb-6 text-justify">

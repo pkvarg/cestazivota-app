@@ -21,23 +21,8 @@
       "intro": "Na tejto stránke si berieme tvoje súkromie vážne. Zbierame len minimum nevyhnutných údajov a nikdy ich nezdieľame s tretími stranami na marketingové účely.",
       "cookiesTitle": "Cookies a analytika",
       "cookiesBody": "Používame nástroj Umami na anonymnú analýzu návštevnosti. Umami je self-hosted služba, ktorá neukladá IP adresy ani žiadne osobné identifikátory. Cookies a analytiku načítavame až po tvojom súhlase v cookie lište.",
-      "contactTitle": "Kontaktný formulár",
-      "contactBody": "Ak nám pošleš správu cez formulár v sekcii knihy, tvoja e-mailová adresa sa použije výhradne na odpoveď. Nie je ukladaná v žiadnej databáze ani preposielaná tretím stranám.",
-      "contactLink": "Prejsť na kontaktný formulár →",
-      "rightsTitle": "Tvoje práva",
-      "rightsBody": "Máš právo kedykoľvek svoj súhlas odvolať, požiadať o výmaz údajov alebo sa dotazovať, aké údaje o tebe spracúvame. Napíš nám cez kontaktný formulár."
-    },
-    "contactForm": {
-      "name": "Meno",
-      "email": "Tvoj e-mail",
-      "message": "Tvoja správa mne",
-      "send": "Poslať",
-      "gdpr": "Súhlasím so ",
-      "gdprLink": "spracovaním údajov",
-      "gdprInfo1": "Tvoja emailová adresa nebude uložená v žiadnej databáze a bude použitá len na odpoveď na tvoju správu.",
-      "gdprInfo2": "Po odoslaní tvojej správy ti obratom príde potvrdenie emailom, tak si prípadne skontroluj aj priečinok nevyžiadanej pošty.",
-      "success": "Správa bola úspešne odoslaná!",
-      "error": "Niečo sa pokazilo. Skúste to prosím znova."
+      "rightsTitle": "Odvolanie súhlasu",
+      "rightsBody": "Súhlas s analytickými cookies môžeš kedykoľvek odvolať v cookie lište alebo vymazaním cookies vo svojom prehliadači."
     }
   },
   "nav": {
@@ -65,7 +50,8 @@
     "heroRef6": "Hebrejom 9:22",
     "heroVerse7": "Lebo tak Boh miloval svet, že svojho jednorodeného Syna dal, aby nezahynul, ale večný život mal každý, kto verí v Neho.",
     "heroRef7": "Ján 3:16",
-    "s2Title": "Svedectvo môjho kamaráta Jimmyho",
+    "s2Title": "Nadprirodzená skúsenosť",
+    "s2More": "Viac na",
     "s3Text1": "Ak sa rozhodneš ignorovať Jeho obeť a šancu na záchranu, budeš odsúdený,",
     "s3Text1add": " lebo Boh sa pyšným protiví.",
     "s3Text1addRef": "Prvý Petrov 5:5",
@@ -96,12 +82,6 @@
     "s3Text4g": "Ježišu, vyznávam Ťa ako môjho Pána a Spasiteľa.",
     "s3Text4h": "Prosím, meň moje srdce a formuj môj charakter.",
     "s3Text4i": "Amen.",
-    "s4Title": "Viac sa dočítaš v tejto knihe",
-    "s4Button": "Vytlačenú bezplatnú knihu si pýtaj u mňa",
-    "s4ButtonPre": "Vytlačenú bezplatnú knihu si pýtaj u ",
-    "s4ButtonLink": "mňa",
-    "s4ButtonPost": "",
-    "s4ModalTitle": "Napíš mi",
     "s5Pokrstenie": "Daj sa pokrstiť v mene Ježiša Krista na odpustenie hriechov, začni sa každodenne modliť vlastnými slovami, aby si udržiaval živý vzťah s Bohom a čítať Bibliu, aby si bol plný Jeho Slova a podľa Neho žil. A pravidelne navštevuj nejaké spoločenstvo, kde oslavujú len Boha Otca, Ježiša a Svätého Ducha.",
     "s5Precon": "Prečo nestačí len formálne uveriť a ďalej to neriešiť? Pretože viera bez osobného vzťahu s Ježišom je len mŕtve náboženstvo a viera bez poslušnosti Božiemu Slovu je pokrytectvom. Takú falošnú vieru Boh neprijme a odsúdi. Mŕtva viera ťa nespasí!",
     "s5PanomIntro": "Pánom ti je ten, koho poslúchaš.",

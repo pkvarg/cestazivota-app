@@ -21,7 +21,7 @@ export default async function SvedkoviaHome() {
     <div>
       <section className="hero-gradient-sv min-h-screen flex items-center justify-center px-4 py-20">
         <div className="max-w-3xl mx-auto text-center">
-          <h1 className="text-3xl md:text-[45px] font-medium mb-6 leading-[1.1] text-[#4a2600]">
+          <h1 className="text-[30px] lg:text-[40px] font-medium mb-6 leading-[30px] lg:leading-[40px] text-[#4a2600]">
             {t.heroTitle}
           </h1>
           <h2 className="text-xl md:text-2xl text-[#4a2600]/80 font-medium">{t.heroSub}</h2>

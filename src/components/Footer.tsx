@@ -77,6 +77,12 @@ export default function Footer() {
             <h3 className="text-white font-bold text-lg mb-2">
               CestaZivota<span className="text-yellow-400">.sk</span>
             </h3>
+            <a
+              href="mailto:cestazivota@cestazivota.sk"
+              className="text-sm hover:text-white transition-colors"
+            >
+              cestazivota@cestazivota.sk
+            </a>
           </div>
 
           {/* Links */}
