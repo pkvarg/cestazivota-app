@@ -1,5 +1,6 @@
 import { getLocale } from 'next-intl/server';
 import { getTranslations } from 'next-intl/server';
+import { redirect } from '@/i18n/navigation';
 import { getLocalizedContent } from '@/lib/content';
 import Verse from '@/components/Verse';
 import contentData from '@/content/katolickaviera-maria.json';
@@ -12,6 +13,7 @@ export async function generateMetadata({ params }: { params: Promise<{ locale: s
 
 export default async function MariaPage() {
   const locale = await getLocale();
+  if (locale !== 'sk') redirect({ href: '/katolickaviera', locale });
   const t = getLocalizedContent<Record<string, string>>(contentData, locale);
 
   return (

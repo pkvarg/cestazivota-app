@@ -1,6 +1,6 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { Link, usePathname } from '@/i18n/navigation';
 
 export default function Footer() {
@@ -9,6 +9,7 @@ export default function Footer() {
   const tSv = useTranslations('svedkovia.nav');
   const tKv = useTranslations('katolickaviera.nav');
   const pathname = usePathname();
+  const locale = useLocale();
 
   type Href =
     | '/'
@@ -51,8 +52,9 @@ export default function Footer() {
   ];
 
   // Show the matching parent's sub-tree only when the user is currently inside it.
+  // KV subpages exist only in Slovak; suppress the sub-tree in other locales.
   const showSvedkoviaSubs = pathname.startsWith('/svedkovia');
-  const showKvSubs = pathname.startsWith('/katolickaviera');
+  const showKvSubs = pathname.startsWith('/katolickaviera') && locale === 'sk';
 
   const navItems: { href: Href; label: string }[] = [
     { href: '/', label: nav('cestaZivota') },

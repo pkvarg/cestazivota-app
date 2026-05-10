@@ -1,4 +1,5 @@
 import { getLocale } from 'next-intl/server';
+import { redirect } from '@/i18n/navigation';
 import { getLocalizedContent } from '@/lib/content';
 import Verse from '@/components/Verse';
 import contentData from '@/content/katolickaviera-manzelstvo.json';
@@ -9,6 +10,7 @@ export async function generateMetadata() {
 
 export default async function ManzelstvoPage() {
   const locale = await getLocale();
+  if (locale !== 'sk') redirect({ href: '/katolickaviera', locale });
   const t = getLocalizedContent<Record<string, string>>(contentData, locale);
 
   return (

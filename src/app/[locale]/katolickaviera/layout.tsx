@@ -1,6 +1,6 @@
 'use client';
 
-import { useTranslations } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { Link, usePathname } from '@/i18n/navigation';
 
 export default function KatolickaVieraLayout({
@@ -19,6 +19,9 @@ export default function KatolickaVieraLayout({
 function SubNav() {
   const t = useTranslations('katolickaviera.nav');
   const pathname = usePathname();
+  const locale = useLocale();
+
+  if (locale !== 'sk') return null;
 
   const links = [
     { href: '/katolickaviera', label: t('home') },
