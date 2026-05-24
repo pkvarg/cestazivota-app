@@ -22,7 +22,8 @@
       "cookiesTitle": "Cookies and analytics",
       "cookiesBody": "We use Umami for anonymous traffic analytics. Umami is a self-hosted service that does not store IP addresses or any personal identifiers. Cookies and analytics load only after your consent in the cookie banner.",
       "rightsTitle": "Withdrawing consent",
-      "rightsBody": "You can withdraw your consent for analytics cookies at any time via the cookie banner or by clearing cookies in your browser."
+      "rightsBody": "You can withdraw your consent for analytics cookies at any time via the cookie banner or by clearing cookies in your browser.",
+      "manageCookies": "Change cookie settings"
     }
   },
   "nav": {

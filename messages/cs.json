@@ -22,7 +22,8 @@
       "cookiesTitle": "Cookies a analytika",
       "cookiesBody": "Používáme nástroj Umami pro anonymní analýzu návštěvnosti. Umami je self-hosted služba, která neukládá IP adresy ani žádné osobní identifikátory. Cookies a analytiku načítáme až po tvém souhlasu v cookie liště.",
       "rightsTitle": "Odvolání souhlasu",
-      "rightsBody": "Souhlas s analytickými cookies můžeš kdykoli odvolat v cookie liště nebo smazáním cookies ve svém prohlížeči."
+      "rightsBody": "Souhlas s analytickými cookies můžeš kdykoli odvolat v cookie liště nebo smazáním cookies ve svém prohlížeči.",
+      "manageCookies": "Změnit nastavení cookies"
     }
   },
   "nav": {

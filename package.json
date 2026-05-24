@@ -2,8 +2,13 @@
   "name": "cestazivota-app",
   "version": "1.0.0",
   "private": true,
+  "packageManager": "pnpm@10.18.0",
   "engines": {
-    "node": ">=22.13"
+    "node": ">=22.13",
+    "pnpm": ">=10"
+  },
+  "pnpm": {
+    "onlyBuiltDependencies": []
   },
   "scripts": {
     "dev": "next dev --port 4006",

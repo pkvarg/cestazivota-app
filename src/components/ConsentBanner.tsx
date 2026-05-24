@@ -14,6 +14,10 @@ export default function ConsentBanner() {
     } else if (consent === 'accepted') {
       loadAnalytics();
     }
+
+    const handleOpen = () => setVisible(true);
+    window.addEventListener('open-consent-banner', handleOpen);
+    return () => window.removeEventListener('open-consent-banner', handleOpen);
   }, []);
 
   function handleAccept() {

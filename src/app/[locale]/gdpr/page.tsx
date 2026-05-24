@@ -1,4 +1,5 @@
 import { getTranslations } from 'next-intl/server';
+import ManageConsentButton from '@/components/ManageConsentButton';
 
 export async function generateMetadata({ params }: { params: Promise<{ locale: string }> }) {
   const { locale } = await params;
@@ -27,7 +28,10 @@ export default async function GdprPage({ params }: { params: Promise<{ locale: s
         <p className="mb-8">{t('cookiesBody')}</p>
 
         <h2 className="text-[24px] font-semibold mb-3 text-yellow-300">{t('rightsTitle')}</h2>
-        <p>{t('rightsBody')}</p>
+        <p className="mb-4">{t('rightsBody')}</p>
+        <p>
+          <ManageConsentButton />
+        </p>
       </div>
     </section>
   );
