@@ -39,6 +39,12 @@ export default async function CestaZivotaHome() {
   const t = await getTranslations({ locale, namespace: 'cestaZivota' });
   const bookPath = locale === 'en' ? '/images/book-en' : '/images/book';
   const bookPages = locale === 'en' ? 38 : 36;
+  const panomAudioHref =
+    locale === 'en'
+      ? 'https://app.messengerx.com/en-US/listen/1DB0tFrLRez7blmTBmVSlZ/2EmIAHWSQhehq3XvBHF7vs_s3AudioAsset.mp3'
+      : locale === 'cs'
+        ? 'https://app.messengerx.com/cs-CZ/listen/1DB0tFrLRez7blmTBmVSlZ/5chmIMhcyC5HdnNKxBrB0v_s3AudioAsset.mp3'
+        : 'https://app.messengerx.com/sk-SK/listen/1DB0tFrLRez7blmTBmVSlZ/qo21vqS1ZFttSJR05ydGL_s3AudioAsset.mp3';
 
   return (
     <div>
@@ -161,7 +167,7 @@ export default async function CestaZivotaHome() {
             {t('s5PanomAudio')}{' '}
             <a
               className="underline"
-              href="https://app.messengerx.com/sk-SK/listen/1DB0tFrLRez7blmTBmVSlZ/qo21vqS1ZFttSJR05ydGL_s3AudioAsset.mp3"
+              href={panomAudioHref}
               target="_blank"
               rel="noreferrer"
             >
