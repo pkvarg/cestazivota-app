@@ -38,7 +38,7 @@ export default function ConsentBanner() {
     script.defer = true;
     script.setAttribute('data-website-id', '50c03fdc-3565-4723-80d0-676f1b37c8f4');
     script.setAttribute('data-umami-loaded', 'true');
-    script.src = 'https://umami-p00gs00gwcwo00s4k4c4kgg8.pictusweb.com/script.js';
+    script.src = 'https://analytics.pictusweb.com/script.js';
     document.head.appendChild(script);
   }
 
