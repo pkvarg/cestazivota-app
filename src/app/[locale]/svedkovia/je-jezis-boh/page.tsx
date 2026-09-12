@@ -35,12 +35,19 @@ export default async function JezisPage() {
           <h2 className="text-[18px] lg:text-[24px] font-medium mt-8 mb-4 text-center">{t.jSub4}</h2>
           <Verse text={t.jVersex5} reference={t.jRefx5} />
           <Verse text={t.jVersexx5} reference={t.jRefxx5} />
+          {t.jVersexxx5 && <Verse text={t.jVersexxx5} reference={t.jRefxxx5} />}
           <p className="my-4">{t.jText5}</p>
 
           <h2 className="text-[18px] lg:text-[24px] font-medium mt-8 mb-4 text-center">{t.jSub5}</h2>
           <Verse text={t.jVerse5} reference={t.jRef5} />
           <Verse text={t.jVerse6} reference={t.jRef6} />
+          {t.jVerse6b && <Verse text={t.jVerse6b} reference={t.jRef6b} />}
           <p className="my-4">{t.jText6}</p>
+
+          {t.jSubLook && <h2 className="text-[18px] lg:text-[24px] font-medium mt-8 mb-4 text-center">{t.jSubLook}</h2>}
+          {t.jVerseLook1 && <Verse text={t.jVerseLook1} reference={t.jRefLook1} />}
+          {t.jVerseLook2 && <Verse text={t.jVerseLook2} reference={t.jRefLook2} />}
+          {t.jTextLook && <p className="my-4">{t.jTextLook}</p>}
 
           <h2 className="text-[18px] lg:text-[24px] font-medium mt-8 mb-4 text-center">{t.jSub6}</h2>
           <Verse text={t.jVerse7} reference={t.jRef7} />
@@ -81,6 +88,16 @@ export default async function JezisPage() {
 
           <h2 className="text-[18px] lg:text-[24px] font-medium mt-8 mb-4 text-center">{t.jSub13}</h2>
           <Verse text={t.jVerse20} reference={t.jRef20} />
+
+          {t.jSubOne && <h2 className="text-[18px] lg:text-[24px] font-medium mt-8 mb-4 text-center">{t.jSubOne}</h2>}
+          {t.jVerseOne1 && <Verse text={t.jVerseOne1} reference={t.jRefOne1} />}
+          {t.jSubOne2 && <h2 className="text-[18px] lg:text-[24px] font-medium mt-8 mb-4 text-center">{t.jSubOne2}</h2>}
+          {t.jVerseOne2 && <Verse text={t.jVerseOne2} reference={t.jRefOne2} />}
+          {t.jSubOne3 && <h2 className="text-[18px] lg:text-[24px] font-medium mt-8 mb-4 text-center">{t.jSubOne3}</h2>}
+          {t.jVerseOne3 && <Verse text={t.jVerseOne3} reference={t.jRefOne3} />}
+          {t.jSubOne4 && <h2 className="text-[18px] lg:text-[24px] font-medium mt-8 mb-4 text-center">{t.jSubOne4}</h2>}
+          {t.jVerseOne4 && <Verse text={t.jVerseOne4} reference={t.jRefOne4} />}
+          {t.jVerseOne5 && <Verse text={t.jVerseOne5} reference={t.jRefOne5} />}
         </div>
       </section>
     </div>

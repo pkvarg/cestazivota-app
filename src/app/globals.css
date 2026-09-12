@@ -159,6 +159,12 @@ body {
   font-size: 15px;
 }
 
+/* Duhovyrod — breathing room around inline verse references (Verse component) */
+.verse-dr .verse-ref {
+  margin-left: 0.35rem;
+  margin-right: 0.5rem;
+}
+
 /* Duhovyrod gradient text for hero title */
 .title-grad {
   background-image: linear-gradient(to right, #ee36c9, #ffffff);
@@ -214,6 +220,12 @@ body {
   @apply text-xs not-italic opacity-70 inline ml-1;
 }
 
+/* Svedkovia — breathing room around inline verse references (Verse component) */
+.verse-sv .verse-ref {
+  margin-left: 0.35rem;
+  margin-right: 0.5rem;
+}
+
 /* Katolickaviera verse style — non-italic, inline refs, matching original */
 .verse-kv blockquote {
   @apply border-l-0 pl-0 my-1 block;
@@ -227,6 +239,12 @@ body {
 .verse-kv blockquote cite.verse-ref {
   @apply not-italic inline ml-1 text-[#e6e6e6];
   font-size: 15px;
+}
+
+/* Katolickaviera — breathing room around inline verse references (Verse component) */
+.verse-kv .verse-ref {
+  margin-left: 0.35rem;
+  margin-right: 0.5rem;
 }
 
 /* === SVEDKOVIA sub-page heroes === */
