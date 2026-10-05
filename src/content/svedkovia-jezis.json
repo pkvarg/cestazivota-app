@@ -33,7 +33,7 @@
 
     "jText5": "Máme vzdať česť a slávu Ježišovi, inak si nectíme Boha.",
 
-    "jSub5": "Len Bohu sa má klaňať Jeho stvorenie",
+    "jSub5": "Len Bohu sa máme klaňať",
 
     "jVerse5": "Keď som to počul a videl, padol som k nohám anjelovi, ktorý mi to ukázal, a klaňal som sa mu. On mi však povedal: Pozri, nie tak! Som spoluslužobníkom tvojím, tvojich bratov, prorokov a tých, ktorí zachovávajú slová tejto knihy. Bohu sa klaňaj!",
     "jRef5": "Zjavenie Jána 22:8-9",
@@ -139,7 +139,14 @@
     "jVerseOne4": "Ježiš Kristus mal podobu Božiu a svoju rovnosť s Bohom nepokladal za lúpež, ale vzdal sa hodnosti*, vzal na seba podobu služobníka, podobný sa stal ľuďom, a keď sa zjavil ako človek.",
     "jRefOne4": "Filipanom 2:6-7",
     "jVerseOne5": "Keď bol ešte v tele, len vtedy vyhlásil: Otec je väčší ako ja.",
-    "jRefOne5": "Ján 14:28"
+    "jRefOne5": "Ján 14:28",
+
+    "jSubDecl": "Ježiš sa označuje za Boha",
+    "jVerseDecl": "Ja a Otec sme jedno. Nato Židia zase zdvihli kamene, aby Ho kameňovali. Odpovedali Mu Židia: Pre dobrý skutok Ťa nekameňujeme, ale pre rúhanie, že sa Ty, človek, robíš Bohom.",
+    "jRefDecl": "Ján 10:30-31, 33",
+
+    "jConcl": "Každý duch, vyznávajúci Ježiša ako Krista, ktorý prišiel v tele, je z Boha; a ktorý duch nevyznáva Ježiša (ako Krista), ten nie je z Boha; je to (duch) antikristov, o ktorom ste počuli, že prichádza a teraz je už vo svete. Podľa toho poznávame Ducha pravdy a ducha bludu.",
+    "jConclRef": "Prvý Jánov 4:2-3, 6"
   },
 
   "english": {
@@ -173,7 +180,7 @@
     "jRefxx5": "John 5:22-23",
     "jText5": "We are to give honor and glory to Jesus, otherwise we are not honoring God.",
 
-    "jSub5": "Creation is to bow down just before God alone",
+    "jSub5": "We are to bow down to God alone",
 
     "jVerse5": "And I am John, who heard and saw these things. And when I had heard and seen them, I fell down to bow down at the feet of the angel who had shown me these things. But he said to me, “Do not do that! I am a fellow servant with you and your brothers the prophets, and with those who keep the words of this book. Bow before God!”",
     "jRef5": "Revelation 22:8-9",
@@ -268,7 +275,14 @@
     "jVerseOne4": "Christ Jesus, being in very nature God, did not consider equality with God something to be grasped, but emptied Himself*, taking the very nature of a servant, being made in human likeness. And being found in appearance as a man,",
     "jRefOne4": "Philippians 2:6-7",
     "jVerseOne5": "Only while He was still in the flesh did He declare: The Father is greater than I.",
-    "jRefOne5": "John 14:28"
+    "jRefOne5": "John 14:28",
+
+    "jSubDecl": "Jesus declares Himself to be God",
+    "jVerseDecl": "I and the Father are one. Again the Jews picked up stones to stone Him. The Jews answered Him: We are not stoning You for any good work, but for blasphemy, because You, a mere man, make Yourself God.",
+    "jRefDecl": "John 10:30-31, 33",
+
+    "jConcl": "Every spirit that acknowledges Jesus as the Christ, who has come in the flesh, is from God; and every spirit that does not acknowledge Jesus (as the Christ) is not from God. This is the spirit of the antichrist, which you have heard is coming and even now is already in the world. This is how we recognize the Spirit of truth and the spirit of error.",
+    "jConclRef": "1 John 4:2-3, 6"
   },
   "czech": {
     "jTitle": "Je Ježíš Bůh?",
@@ -297,7 +311,7 @@
 
     "jText5": "Máme vzdát čest a slávu Ježíši, jinak si nectíme Boha.",
 
-    "jSub5": "Jen Bohu se má klanět Jeho stvoření",
+    "jSub5": "Jen Bohu se máme klanět",
 
     "jVerse5": "Když jsem to slyšel a viděl, padl jsem k nohám andělovi, který mi to ukázal, a klaněl jsem se mu. On mi však řekl: Podívej, ne tak! Jsem spoluslužebníkem tvým, tvých bratrů, proroků a těch, kteří zachovávají slova této knihy. Bohu se klaněj!",
     "jRef5": "Zjevení Jana 22:8-9",
@@ -403,6 +417,13 @@
     "jVerseOne4": "Ježíš Kristus, ačkoli měl podobu Boha, nelpěl na své rovnosti s Bohem, nýbrž sám sebe zmařil*, vzal na sebe podobu služebníka a stal se podobným lidem. A když se ukázal jako člověk,",
     "jRefOne4": "Filipským 2:6-7",
     "jVerseOne5": "Jen dokud byl ještě v těle, tehdy prohlásil: Otec je větší než já.",
-    "jRefOne5": "Jan 14:28"
+    "jRefOne5": "Jan 14:28",
+
+    "jSubDecl": "Ježíš se označuje za Boha",
+    "jVerseDecl": "Já a Otec jsme jedno. Nato Židé opět zvedli kameny, aby Ho kamenovali. Židé Mu odpověděli: Nekamenujeme Tě za dobrý skutek, ale za rouhání, že se Ty, člověk, děláš Bohem.",
+    "jRefDecl": "Jan 10:30-31, 33",
+
+    "jConcl": "Každý duch, který vyznává Ježíše jako Krista, jenž přišel v těle, je z Boha; a který duch nevyznává Ježíše (jako Krista), ten není z Boha; je to (duch) antikristův, o němž jste slyšeli, že přichází, a nyní je již na světě. Podle toho poznáváme Ducha pravdy a ducha bludu.",
+    "jConclRef": "První Janův 4:2-3, 6"
   }
 }

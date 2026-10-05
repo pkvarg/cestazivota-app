@@ -79,6 +79,9 @@ export default async function JezisPage() {
           <Verse text={t.jVerse16} reference={t.jRef16} />
           <Verse text={t.jVerse17} reference={t.jRef17} />
 
+          {t.jSubDecl && <h2 className="text-[18px] lg:text-[24px] font-medium mt-8 mb-4 text-center">{t.jSubDecl}</h2>}
+          {t.jVerseDecl && <Verse text={t.jVerseDecl} reference={t.jRefDecl} />}
+
           <h2 className="text-[18px] lg:text-[24px] font-medium mt-8 mb-4 text-center">{t.jSub11}</h2>
           <Verse text={t.jVerse18} reference={t.jRef18} />
 
@@ -98,6 +101,13 @@ export default async function JezisPage() {
           {t.jSubOne4 && <h2 className="text-[18px] lg:text-[24px] font-medium mt-8 mb-4 text-center">{t.jSubOne4}</h2>}
           {t.jVerseOne4 && <Verse text={t.jVerseOne4} reference={t.jRefOne4} />}
           {t.jVerseOne5 && <Verse text={t.jVerseOne5} reference={t.jRefOne5} />}
+
+          {t.jConcl && (
+            <div className="mt-12 rounded-xl border-2 border-black/40 bg-[#5fb6d2] shadow-lg px-6 py-6">
+              <span className="verse">{t.jConcl}</span>
+              <cite className="verse-ref">{t.jConclRef}</cite>
+            </div>
+          )}
         </div>
       </section>
     </div>
