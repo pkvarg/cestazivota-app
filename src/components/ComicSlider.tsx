@@ -1,6 +1,7 @@
 'use client';
 
 import { useState } from 'react';
+import { useTranslations } from 'next-intl';
 
 const TRACT_BY_LOCALE: Record<string, string> = {
   sk: '0710',
@@ -21,12 +22,33 @@ export default function ComicSlider({ locale }: { locale: string }) {
   const images = buildPages(locale);
   const total = images.length;
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [active, setActive] = useState(false);
+  const t = useTranslations('common.comic');
 
   function prev() {
     setCurrentIndex((i) => (i === 0 ? total - 1 : i - 1));
   }
   function next() {
     setCurrentIndex((i) => (i === total - 1 ? 0 : i + 1));
+  }
+
+  // The pages are loaded from chick.com only after a click, so visitors'
+  // browsers don't contact Chick Publications without their action. See /gdpr.
+  if (!active) {
+    return (
+      <div className="my-16 flex justify-center">
+        <button
+          type="button"
+          onClick={() => setActive(true)}
+          className="group flex w-full lg:w-[65%] aspect-[4/3] flex-col items-center justify-center gap-4 rounded-lg border border-gray-700 bg-gray-900 px-6 text-center cursor-pointer"
+        >
+          <span className="rounded-full bg-yellow-400 px-6 py-3 font-semibold text-gray-900 transition-transform group-hover:scale-105">
+            {t('show')}
+          </span>
+          <span className="max-w-md text-sm text-gray-400">{t('notice')}</span>
+        </button>
+      </div>
+    );
   }
 
   return (

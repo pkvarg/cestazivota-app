@@ -32,7 +32,7 @@
       "s5Title": "5. Videa z YouTube",
       "s5Text": "Videa jsou uložena na YouTube (Google Ireland Ltd. / Google LLC). Dokud neklikneš na „Přehrát video“, s YouTube se nenaváže žádné spojení. Po kliknutí se video načte z youtube-nocookie.com a Google získá tvou IP adresu a údaje o prohlížeči a může uložit vlastní cookies. Za toto zpracování odpovídá Google jako samostatný správce (policies.google.com/privacy).",
       "s6Title": "6. Komiksy",
-      "s6Text": "Obrázky komiksů na úvodní stránce se načítají ze serveru www.chick.com (Chick Publications, Inc., USA). Při jejich zobrazení dostane tento server tvou IP adresu a údaje o prohlížeči, stejně jako při návštěvě jakékoli jiné stránky.",
+      "s6Text": "Komiks na úvodní stránce se načítá ze serveru www.chick.com (Chick Publications, Inc., USA), a to až po kliknutí na „Zobrazit komiks“. Poté tento server dostane tvou IP adresu a údaje o prohlížeči, stejně jako při návštěvě jakékoli jiné stránky.",
       "s7Title": "7. Kdo má k údajům přístup",
       "s7Text": "Údaje neprodáváme ani neposkytujeme pro marketing. Přístup mají jen tito poskytovatelé, v rozsahu potřebném pro jejich službu:\n- Pictusweb s.r.o., Nábrežná 4895/42, 940 02 Nové Zámky, Slovensko – vývoj a provoz webu včetně hostingu a měření návštěvnosti\n- Cloudflare, Inc. (USA) – doručování webu a ochrana před útoky\n- Titan Mail (přes Hostinger) – e-mailová schránka cestazivota@cestazivota.sk\n- Google (YouTube) – jen pokud spustíš video (část 5)\n- Chick Publications, Inc. – obrázky komiksů (část 6)",
       "s8Title": "8. Předávání údajů mimo EU",
@@ -46,6 +46,10 @@
     "video": {
       "play": "Přehrát video",
       "notice": "Video se přehraje z YouTube (Google). Kliknutím ho načteš a Google může uložit cookies."
+    },
+    "comic": {
+      "show": "Zobrazit komiks",
+      "notice": "Komiks se načte ze stránky chick.com (Chick Publications, USA). Kliknutím ho zobrazíš a tento server dostane tvou IP adresu."
     }
   },
   "nav": {

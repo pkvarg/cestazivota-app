@@ -32,7 +32,7 @@
       "s5Title": "5. YouTube videos",
       "s5Text": "Videos are hosted on YouTube (Google Ireland Ltd. / Google LLC). No connection to YouTube is made until you click \"Play video\". After the click the video loads from youtube-nocookie.com and Google receives your IP address and browser data and may store its own cookies. Google is responsible for this processing as an independent controller (policies.google.com/privacy).",
       "s6Title": "6. Comics",
-      "s6Text": "The comic images on the home page are loaded from www.chick.com (Chick Publications, Inc., USA). When they are displayed, that server receives your IP address and browser data, as with a visit to any other website.",
+      "s6Text": "The comic on the home page is loaded from www.chick.com (Chick Publications, Inc., USA), only after you click \"Show comic\". That server then receives your IP address and browser data, as with a visit to any other website.",
       "s7Title": "7. Who has access to data",
       "s7Text": "We do not sell data or share it for marketing. Only these providers have access, to the extent needed for their service:\n- Pictusweb s.r.o., Nábrežná 4895/42, 940 02 Nové Zámky, Slovakia – development and operation of the website, including hosting and analytics\n- Cloudflare, Inc. (USA) – website delivery and attack protection\n- Titan Mail (via Hostinger) – the cestazivota@cestazivota.sk mailbox\n- Google (YouTube) – only if you play a video (section 5)\n- Chick Publications, Inc. – comic images (section 6)",
       "s8Title": "8. Transfers outside the EU",
@@ -46,6 +46,10 @@
     "video": {
       "play": "Play video",
       "notice": "The video plays from YouTube (Google). Clicking loads it and Google may store cookies."
+    },
+    "comic": {
+      "show": "Show comic",
+      "notice": "The comic loads from chick.com (Chick Publications, USA). Clicking shows it and that server receives your IP address."
     }
   },
   "nav": {
