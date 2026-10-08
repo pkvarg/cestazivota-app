@@ -27,9 +27,9 @@ const config: Config = {
         'error': '#EE4B2B',
       },
       fontFamily: {
-        montserrat: ['Montserrat', 'sans-serif'],
-        lora: ['Lora', 'serif'],
-        baloo: ['Baloo 2', 'cursive'],
+        montserrat: ['var(--font-montserrat)', 'sans-serif'],
+        lora: ['var(--font-lora)', 'serif'],
+        baloo: ['var(--font-baloo)', 'cursive'],
       },
     },
   },

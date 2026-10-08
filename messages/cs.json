@@ -7,9 +7,10 @@
     "contact": "Kontakt",
     "language": "Jazyk",
     "cookie": {
-      "message": "Tato stránka používá cookies pro anonymní analýzu návštěvnosti.",
+      "message": "Návštěvnost měříme nástrojem Umami – bez cookies, bez ukládání IP adresy a jen s tvým souhlasem.",
       "accept": "Souhlasím",
-      "decline": "Nesouhlasím"
+      "decline": "Nesouhlasím",
+      "more": "Více informací"
     },
     "footer": {
       "allRightsReserved": "Všechna práva vyhrazena",
@@ -18,12 +19,33 @@
     },
     "gdprPage": {
       "title": "Ochrana osobních údajů",
-      "intro": "Na této stránce bereme tvé soukromí vážně. Sbíráme jen minimum nezbytných údajů a nikdy je nesdílíme s třetími stranami pro marketingové účely.",
-      "cookiesTitle": "Cookies a analytika",
-      "cookiesBody": "Používáme nástroj Umami pro anonymní analýzu návštěvnosti. Umami je self-hosted služba, která neukládá IP adresy ani žádné osobní identifikátory. Cookies a analytiku načítáme až po tvém souhlasu v cookie liště.",
-      "rightsTitle": "Odvolání souhlasu",
-      "rightsBody": "Souhlas s analytickými cookies můžeš kdykoli odvolat v cookie liště nebo smazáním cookies ve svém prohlížeči.",
+      "effective": "Účinné od 08.10.2026",
+      "intro": "Cesta Života je nekomerční webová stránka s duchovním obsahem. Nemá registraci ani formuláře a sbírá jen minimum údajů. Zde najdeš, co přesně se zpracovává, proč, kdo k údajům má přístup a jaká máš práva podle Nařízení (EU) 2016/679 (GDPR) a slovenského zákona č. 18/2018 Z. z. Rozhodující je slovenské znění.",
+      "s1Title": "1. Kdo web provozuje",
+      "s1Text": "Správcem je Samuel Koriťák, Bratislava, Slovensko.\nKontakt: cestazivota@cestazivota.sk\nTento web provozuje soukromá osoba, ne firma.",
+      "s2Title": "2. Návštěva webu",
+      "s2Text": "Při každé návštěvě zpracovávají poskytovatelé hostingu a Cloudflare technické údaje potřebné k doručení stránky a ochraně před útoky: IP adresu, typ prohlížeče a čas požadavku. Právním základem je oprávněný zájem na bezpečném fungování webu (čl. 6 odst. 1 písm. f) GDPR). Tyto záznamy se uchovávají jen krátce, zpravidla několik týdnů.",
+      "s3Title": "3. Když nám napíšeš e-mail",
+      "s3Text": "Pokud napíšeš na cestazivota@cestazivota.sk, zpracováváme tvou e-mailovou adresu, jméno (pokud ho uvedeš) a obsah zprávy, abychom ti mohli odpovědět (oprávněný zájem, čl. 6 odst. 1 písm. f) GDPR). Pokud nám ve zprávě svěříš informace o své víře nebo jiné osobní věci, použijeme je jen k odpovědi a nikomu je neposkytneme. Zprávy uchováváme 2 roky od poslední komunikace.",
+      "s4Title": "4. Cookies a měření návštěvnosti",
+      "s4Text": "Nezbytné (bez souhlasu):\n- cookie-consent – v prohlížeči si pamatuje tvou volbu v liště (localStorage)\n- NEXT_LOCALE – pamatuje si zvolený jazyk webu\n\nMěření návštěvnosti (jen se souhlasem):\n- Umami – nástroj pro měření návštěvnosti, který pro nás provozuje Pictusweb s.r.o. na vlastním serveru (analytics.pictusweb.com). Nepoužívá cookies, neukládá IP adresu a nevytváří profil návštěvníka; vidíme jen souhrnné statistiky (např. počet návštěv jednotlivých stránek). Spustí se až po kliknutí na „Souhlasím“.\n\nPísma jsou součástí webu, nenačítají se od Google. Nepoužíváme Google Analytics, reklamní ani sledovací cookies.\n\nSouhlas můžeš kdykoli odvolat stejně snadno, jako jsi ho udělil – tlačítkem níže nebo odkazem „Změnit nastavení cookies“ v patičce.",
+      "s5Title": "5. Videa z YouTube",
+      "s5Text": "Videa jsou uložena na YouTube (Google Ireland Ltd. / Google LLC). Dokud neklikneš na „Přehrát video“, s YouTube se nenaváže žádné spojení. Po kliknutí se video načte z youtube-nocookie.com a Google získá tvou IP adresu a údaje o prohlížeči a může uložit vlastní cookies. Za toto zpracování odpovídá Google jako samostatný správce (policies.google.com/privacy).",
+      "s6Title": "6. Komiksy",
+      "s6Text": "Obrázky komiksů na úvodní stránce se načítají ze serveru www.chick.com (Chick Publications, Inc., USA). Při jejich zobrazení dostane tento server tvou IP adresu a údaje o prohlížeči, stejně jako při návštěvě jakékoli jiné stránky.",
+      "s7Title": "7. Kdo má k údajům přístup",
+      "s7Text": "Údaje neprodáváme ani neposkytujeme pro marketing. Přístup mají jen tito poskytovatelé, v rozsahu potřebném pro jejich službu:\n- Pictusweb s.r.o., Nábrežná 4895/42, 940 02 Nové Zámky, Slovensko – vývoj a provoz webu včetně hostingu a měření návštěvnosti\n- Cloudflare, Inc. (USA) – doručování webu a ochrana před útoky\n- Titan Mail (přes Hostinger) – e-mailová schránka cestazivota@cestazivota.sk\n- Google (YouTube) – jen pokud spustíš video (část 5)\n- Chick Publications, Inc. – obrázky komiksů (část 6)",
+      "s8Title": "8. Předávání údajů mimo EU",
+      "s8Text": "Cloudflare, Titan Mail, Google a Chick Publications jsou společnosti se sídlem nebo mateřskou společností mimo EU (zejména v USA). U služeb, které pro nás údaje zpracovávají, se předávání uskutečňuje jen s vhodnými zárukami podle kapitoly V GDPR – na základě rámce EU – USA pro ochranu osobních údajů (EU-U.S. Data Privacy Framework) nebo standardních smluvních doložek Evropské komise.",
+      "s9Title": "9. Tvá práva",
+      "s9Text": "Máš právo na přístup ke svým údajům, jejich opravu a výmaz, na omezení zpracování, na přenositelnost údajů, právo vznést námitku proti zpracování na základě oprávněného zájmu a právo kdykoli odvolat souhlas. Stačí napsat na cestazivota@cestazivota.sk – odpovíme bez zbytečného odkladu, nejpozději do 1 měsíce.\nPokud si myslíš, že tvé údaje zpracováváme nezákonně, můžeš podat stížnost slovenskému Úradu na ochranu osobných údajov SR, Hraničná 12, 820 07 Bratislava 27, www.dataprotection.gov.sk, nebo dozorovému úřadu ve své zemi (v ČR Úřad pro ochranu osobních údajů, www.uoou.gov.cz).",
+      "s10Title": "10. Změny",
+      "s10Text": "Tyto zásady aktualizujeme, když se změní použité služby nebo způsob zpracování. Aktuální znění je vždy na této stránce. Toto znění je účinné od 08.10.2026.",
       "manageCookies": "Změnit nastavení cookies"
+    },
+    "video": {
+      "play": "Přehrát video",
+      "notice": "Video se přehraje z YouTube (Google). Kliknutím ho načteš a Google může uložit cookies."
     }
   },
   "nav": {

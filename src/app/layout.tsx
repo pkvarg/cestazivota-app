@@ -1,6 +1,31 @@
 import type { Metadata } from 'next';
 import { getLocale } from 'next-intl/server';
+import { Montserrat, Lora, Baloo_2, Pacifico } from 'next/font/google';
 import './globals.css';
+
+// Fonts are bundled with the site at build time, so visitors' browsers never
+// contact Google Fonts.
+const montserrat = Montserrat({
+  subsets: ['latin', 'latin-ext'],
+  weight: ['300', '400', '500', '600', '700'],
+  variable: '--font-montserrat',
+});
+const lora = Lora({
+  subsets: ['latin', 'latin-ext'],
+  weight: ['400', '500', '600', '700'],
+  style: ['normal', 'italic'],
+  variable: '--font-lora',
+});
+const baloo = Baloo_2({
+  subsets: ['latin', 'latin-ext'],
+  weight: ['400', '500', '600', '700'],
+  variable: '--font-baloo',
+});
+const pacifico = Pacifico({
+  subsets: ['latin', 'latin-ext'],
+  weight: '400',
+  variable: '--font-pacifico',
+});
 
 const siteUrl = 'https://cestazivota.sk';
 const ogImage = `${siteUrl}/og-image.webp`;
@@ -77,7 +102,10 @@ export default async function RootLayout({
   const locale = await getLocale();
 
   return (
-    <html lang={locale}>
+    <html
+      lang={locale}
+      className={`${montserrat.variable} ${lora.variable} ${baloo.variable} ${pacifico.variable}`}
+    >
       <body className="min-h-screen flex flex-col">{children}</body>
     </html>
   );

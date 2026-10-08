@@ -2,7 +2,11 @@
 
 import { useTranslations } from 'next-intl';
 
-export default function ManageConsentButton() {
+export default function ManageConsentButton({
+  className = 'underline text-yellow-300 hover:text-yellow-200 transition-colors',
+}: {
+  className?: string;
+}) {
   const t = useTranslations('common.gdprPage');
 
   function handleClick() {
@@ -13,7 +17,7 @@ export default function ManageConsentButton() {
     <button
       type="button"
       onClick={handleClick}
-      className="underline text-yellow-300 hover:text-yellow-200 transition-colors"
+      className={className}
     >
       {t('manageCookies')}
     </button>

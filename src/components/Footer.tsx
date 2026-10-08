@@ -2,6 +2,7 @@
 
 import { useLocale, useTranslations } from 'next-intl';
 import { Link, usePathname } from '@/i18n/navigation';
+import ManageConsentButton from '@/components/ManageConsentButton';
 
 export default function Footer() {
   const t = useTranslations('common.footer');
@@ -128,6 +129,9 @@ export default function Footer() {
               >
                 &lt;/&gt; PICTUSWEB
               </a>
+            </p>
+            <p className="mt-3">
+              <ManageConsentButton className="underline hover:text-white transition-colors" />
             </p>
           </div>
         </div>

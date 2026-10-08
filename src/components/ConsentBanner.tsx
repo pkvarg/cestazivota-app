@@ -2,6 +2,7 @@
 
 import { useTranslations } from 'next-intl';
 import { useState, useEffect } from 'react';
+import { Link } from '@/i18n/navigation';
 
 export default function ConsentBanner() {
   const t = useTranslations('common.cookie');
@@ -20,14 +21,18 @@ export default function ConsentBanner() {
     return () => window.removeEventListener('open-consent-banner', handleOpen);
   }, []);
 
+  // Umami honours `umami.disabled`, so withdrawing consent stops tracking
+  // immediately, even if the script is already loaded in this tab.
   function handleAccept() {
     localStorage.setItem('cookie-consent', 'accepted');
+    localStorage.removeItem('umami.disabled');
     setVisible(false);
     loadAnalytics();
   }
 
   function handleDecline() {
     localStorage.setItem('cookie-consent', 'declined');
+    localStorage.setItem('umami.disabled', '1');
     setVisible(false);
   }
 
@@ -47,7 +52,12 @@ export default function ConsentBanner() {
   return (
     <div className="fixed bottom-0 left-0 right-0 bg-gray-900/95 backdrop-blur-sm border-t border-gray-700 p-4 z-50">
       <div className="max-w-4xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-4">
-        <p className="text-gray-300 text-sm">{t('message')}</p>
+        <p className="text-gray-300 text-sm">
+          {t('message')}{' '}
+          <Link href="/gdpr" className="underline text-yellow-300 hover:text-yellow-200">
+            {t('more')}
+          </Link>
+        </p>
         <div className="flex gap-3">
           <button
             onClick={handleAccept}

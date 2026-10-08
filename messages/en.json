@@ -7,9 +7,10 @@
     "contact": "Contact",
     "language": "Language",
     "cookie": {
-      "message": "This website uses cookies for anonymous traffic analysis.",
+      "message": "We measure visits with Umami only – no cookies, no stored IP addresses, and only with your consent.",
       "accept": "Accept",
-      "decline": "Decline"
+      "decline": "Decline",
+      "more": "Learn more"
     },
     "footer": {
       "allRightsReserved": "All rights reserved",
@@ -18,12 +19,33 @@
     },
     "gdprPage": {
       "title": "Privacy policy",
-      "intro": "We take your privacy seriously. We collect only the minimum necessary data and never share it with third parties for marketing purposes.",
-      "cookiesTitle": "Cookies and analytics",
-      "cookiesBody": "We use Umami for anonymous traffic analytics. Umami is a self-hosted service that does not store IP addresses or any personal identifiers. Cookies and analytics load only after your consent in the cookie banner.",
-      "rightsTitle": "Withdrawing consent",
-      "rightsBody": "You can withdraw your consent for analytics cookies at any time via the cookie banner or by clearing cookies in your browser.",
+      "effective": "Effective from 08.10.2026",
+      "intro": "Cesta Života is a non-commercial website with spiritual content. It has no registration or forms and collects only minimal data. Here you can find what is processed, why, who has access and what rights you have under Regulation (EU) 2016/679 (GDPR) and Slovak Act No. 18/2018 Coll. The Slovak version is authoritative.",
+      "s1Title": "1. Who runs this website",
+      "s1Text": "The controller is Samuel Koriťák, Bratislava, Slovakia.\nContact: cestazivota@cestazivota.sk\nThis website is run by a private individual, not a company.",
+      "s2Title": "2. Visiting the website",
+      "s2Text": "On every visit, the hosting providers and Cloudflare process the technical data needed to deliver the page and protect it against attacks: IP address, browser type and time of the request. The legal basis is our legitimate interest in running the website securely (Art. 6(1)(f) GDPR). These logs are kept only briefly, usually a few weeks.",
+      "s3Title": "3. When you email us",
+      "s3Text": "If you write to cestazivota@cestazivota.sk, we process your email address, name (if given) and the content of your message in order to reply (legitimate interest, Art. 6(1)(f) GDPR). If you share information about your faith or other personal matters, we use it only to reply and never pass it on. We keep messages for 2 years from the last communication.",
+      "s4Title": "4. Cookies and analytics",
+      "s4Text": "Strictly necessary (no consent needed):\n- cookie-consent – remembers your choice in the banner (localStorage)\n- NEXT_LOCALE – remembers the selected website language\n\nAnalytics (only with your consent):\n- Umami – a visit-measurement tool run for us by Pictusweb s.r.o. on its own server (analytics.pictusweb.com). It does not use cookies, does not store your IP address and does not build visitor profiles; we only see aggregate statistics (e.g. visits per page). It starts only after you click \"Accept\".\n\nFonts are part of the website and are not loaded from Google. We do not use Google Analytics, advertising or tracking cookies.\n\nYou can withdraw consent at any time as easily as you gave it – with the button below or the \"Change cookie settings\" link in the footer.",
+      "s5Title": "5. YouTube videos",
+      "s5Text": "Videos are hosted on YouTube (Google Ireland Ltd. / Google LLC). No connection to YouTube is made until you click \"Play video\". After the click the video loads from youtube-nocookie.com and Google receives your IP address and browser data and may store its own cookies. Google is responsible for this processing as an independent controller (policies.google.com/privacy).",
+      "s6Title": "6. Comics",
+      "s6Text": "The comic images on the home page are loaded from www.chick.com (Chick Publications, Inc., USA). When they are displayed, that server receives your IP address and browser data, as with a visit to any other website.",
+      "s7Title": "7. Who has access to data",
+      "s7Text": "We do not sell data or share it for marketing. Only these providers have access, to the extent needed for their service:\n- Pictusweb s.r.o., Nábrežná 4895/42, 940 02 Nové Zámky, Slovakia – development and operation of the website, including hosting and analytics\n- Cloudflare, Inc. (USA) – website delivery and attack protection\n- Titan Mail (via Hostinger) – the cestazivota@cestazivota.sk mailbox\n- Google (YouTube) – only if you play a video (section 5)\n- Chick Publications, Inc. – comic images (section 6)",
+      "s8Title": "8. Transfers outside the EU",
+      "s8Text": "Cloudflare, Titan Mail, Google and Chick Publications are based outside the EU or have a parent company outside the EU (mainly in the USA). For services that process data on our behalf, transfers take place only with appropriate safeguards under Chapter V GDPR – the EU-U.S. Data Privacy Framework or the European Commission's standard contractual clauses.",
+      "s9Title": "9. Your rights",
+      "s9Text": "You have the right to access your data, have it corrected or erased, restrict processing, data portability, object to processing based on legitimate interest and withdraw consent at any time. Just write to cestazivota@cestazivota.sk – we will respond without undue delay and within 1 month at the latest.\nIf you believe we process your data unlawfully, you can lodge a complaint with the Office for Personal Data Protection of the Slovak Republic, Hraničná 12, 820 07 Bratislava 27, www.dataprotection.gov.sk, or with the supervisory authority in your EU country.",
+      "s10Title": "10. Changes",
+      "s10Text": "We update this policy when the services we use or the way we process data change. The current version is always on this page. This version is effective from 08.10.2026.",
       "manageCookies": "Change cookie settings"
+    },
+    "video": {
+      "play": "Play video",
+      "notice": "The video plays from YouTube (Google). Clicking loads it and Google may store cookies."
     }
   },
   "nav": {
