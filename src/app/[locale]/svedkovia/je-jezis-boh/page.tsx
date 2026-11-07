@@ -49,6 +49,13 @@ export default async function JezisPage() {
           {t.jVerseLook2 && <Verse text={t.jVerseLook2} reference={t.jRefLook2} />}
           {t.jTextLook && <p className="my-4">{t.jTextLook}</p>}
 
+          {t.jSubRes && <h2 className="text-[18px] lg:text-[24px] font-medium mt-8 mb-4 text-center">{t.jSubRes}</h2>}
+          {t.jVerseRes1 && <Verse text={t.jVerseRes1} reference={t.jRefRes1} />}
+          {t.jVerseRes2 && <Verse text={t.jVerseRes2} reference={t.jRefRes2} />}
+          {t.jVerseRes3 && <Verse text={t.jVerseRes3} reference={t.jRefRes3} />}
+          {t.jVerseRes4 && <Verse text={t.jVerseRes4} reference={t.jRefRes4} />}
+          {t.jVerseRes5 && <Verse text={t.jVerseRes5} reference={t.jRefRes5} />}
+
           <h2 className="text-[18px] lg:text-[24px] font-medium mt-8 mb-4 text-center">{t.jSub6}</h2>
           <Verse text={t.jVerse7} reference={t.jRef7} />
           <Verse text={t.jVerse8} reference={t.jRef8} />
@@ -101,6 +108,10 @@ export default async function JezisPage() {
           {t.jSubOne4 && <h2 className="text-[18px] lg:text-[24px] font-medium mt-8 mb-4 text-center">{t.jSubOne4}</h2>}
           {t.jVerseOne4 && <Verse text={t.jVerseOne4} reference={t.jRefOne4} />}
           {t.jVerseOne5 && <Verse text={t.jVerseOne5} reference={t.jRefOne5} />}
+
+          {t.jSubEternal && <h2 className="text-[18px] lg:text-[24px] font-medium mt-8 mb-4 text-center">{t.jSubEternal}</h2>}
+          {t.jVerseEt1 && <Verse text={t.jVerseEt1} reference={t.jRefEt1} />}
+          {t.jVerseEt2 && <Verse text={t.jVerseEt2} reference={t.jRefEt2} />}
 
           {t.jConcl && (
             <div className="mt-12 rounded-xl border-2 border-black/40 bg-[#5fb6d2] shadow-lg px-6 py-6">
